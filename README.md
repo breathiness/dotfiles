@@ -3,10 +3,10 @@
 
 关于我几台设备的配置文件。主要用于多台设备之间进行方便快捷的同步。
 并且对软件进行简单的介绍。
-## [Linux](linux/README.md)
+## [Linux](https://github.com/breathiness/dotfiles/tree/master/Linux)
 
-## [Mac](Mac/README.md)
+## [Mac](https://github.com/breathiness/dotfiles/tree/master/Mac)
 
-## [Web](Web/README.md)
+## [Web](https://github.com/breathiness/dotfiles/tree/master/Web)
 
-## [Windows](Windows/README.md)
+## [Windows](https://github.com/breathiness/dotfiles/tree/master/Windows)
