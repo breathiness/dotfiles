@@ -19,13 +19,17 @@
   - [下载工具](#下载工具)
     - [Persepolis Download Manager](#persepolis-download-manager)
     - [Syncthing](#syncthing)
-    - [You-Get](#you-get)
-    - [Send Anywhere](#send-anywhere)
+    - [youtube-dl](#youtube-dl)
+    - [Feem](#feem)
+    - [~~You-Get~~](#~~you-get~~)
+    - [~~Send Anywhere~~](#~~send-anywhere~~)
   - [效率](#效率)
     - [Cerebro](#cerebro)
     - [CopyQ](#copyq)
-    - [Double Commander](#double-commander)
     - [AngrySearch](#angrysearch)
+  - [文件管理](#文件管理)
+    - [Ranger](#ranger)
+    - [Double Commander](#double-commander)
   - [安全](#安全)
   - [音乐](#音乐)
     - [Netease Music](#netease-music)
@@ -40,7 +44,8 @@
   - [图片](#图片)
     - [GIMP](#gimp)
     - [LibreCAD](#librecad)
-  - [文本](#文本)
+  - [文本编辑器](#文本编辑器)
+    - [VScode](#vscode)
     - [Atom](#atom)
     - [Emacs](#emacs)
     - [VIM](#vim)
@@ -58,13 +63,12 @@
     - [Oh-my-zsh](#oh-my-zsh)
     - [Tmux](#tmux)
     - [git](#git)
-    - [Ranger](#ranger)
     - [xmodmap](#xmodmap)
     - [xdotool](#xdotool)
     - [NeoFetch](#neofetch)
     - [The Fuck](#the-fuck)
   - [其他](#其他)
-    - [tele，gram  ，gram.org/](#telegram-gramorg)
+    - [telegram](#telegram)
     - [7zip](#7zip)
     - [Xmind](#xmind)
     - [CrossOver](#crossover)
@@ -91,8 +95,8 @@ Linux 是我在生活中主要使用的系统。选择 Linux 作为主系统的�
 如果嫌弃 Archlinux 麻烦的安装步骤。还可以使用 Archlinux 的下游发行版 [Manjaro](https://manjaro.org/) 。安装很无脑，基本可以做到开箱即用。并且有多种桌面环境可供选择。我试用过 I3WM 版本的 Manjaro ，默认的配置就非常的不错。我现在使用的配置文件就有一部分是抄的 Manjaro 。  
 Manjaro 还有个转 Archlinux 的骚操作。亲测没什么问题，可以正常使用。  
 
-## Deepin
-[Deepin](https://www.deepin.org/download/) 是一个国产、相当傻瓜化、基于 Debian 的发行版。安装非常非常简单，将官方的 ISO 镜像文件解压后会有制作安装U盘的和直接硬盘安装的软件，直接无脑下一步就行。自带有一个能免费使用的 CrossOver。之前有段时间我的 Arch 被我玩坏了，而手上又刚好没有u盘，所以就试着换成了可以硬盘安装的 deepin。使用了一段时间感觉还挺不错的。非常的简单，默认的桌面环境是 DDE ，颜值挺不错的。也作了很多针对国内的优化，可以说是国内发行版里做的最良心的。
+## Deepin 
+[Deepin](https://www.deepin.org/download/) 是一个国产、相当傻瓜化、基于 Debian 的发行版。安装非常非常简单，将官方的 ISO 镜像文件解压后会有制作安装U盘的和直接硬盘安装的软件，直接无脑下一步就行。自带有一个能免费使用的 CrossOver。之前有段时间我的 Arch 被我玩坏了，而手上又刚好没有u盘，所以就试着换成了可以硬盘安装的 deepin。使用了一段时间感觉还挺不错的。非常的简单，默认的桌面环境是 DDE ，颜值挺不错的。也作了很多针对国内的优化，可以说是国内发行版里做的最良心的。 
 
 #  二、Linux 网站介绍
 接下来介绍一下我找软件的地方。Linux因为用户少，所以并不像win和Mac有各种博客，这方面还是挺糟糕的。  
@@ -115,27 +119,42 @@ Manjaro 还有个转 Archlinux 的骚操作。亲测没什么问题，可以正�
 ### Firefox
 
 ### Chromium
-信仰加成浏览器，Chromium是Google为发展自家的浏览器Google Chrome而开启的计画，所以Chromium相当于Google Chrome的工程版或实验版（尽管Google Chrome本身也有β版），新功能会率先在Chromium上开放，待验证后才会应用在Google Chrome上，故Google Chrome的功能会相对落后但较稳定。
-Chromium的更新速度很快，每隔数小时即有新的开发版本发布，而且可以免安装，下载zip封装版后解压缩即可使用（Windows下也有安装版）。Chrome虽然理论上也可以免安装，但Google仅提供安装版。
-顺带一提，chrome 是闭源的，而chromium是开源的。
+信仰加成浏览器，Chromium是Google为发展自家的浏览器Google Chrome而开启的计画，所以Chromium相当于Google Chrome的工程版或实验版（尽管Google Chrome本身也有β版），新功能会率先在Chromium上开放，待验证后才会应用在Google Chrome上，故Google Chrome的功能会相对落后但较稳定。 
+Chromium的更新速度很快，每隔数小时即有新的开发版本发布，而且可以免安装，下载zip封装版后解压缩即可使用（Windows下也有安装版）。Chrome虽然理论上也可以免安装，但Google仅提供安装版。 
+顺带一提，chrome 是闭源的，而chromium是开源的。 
 
 ## 下载工具
 ### Persepolis Download Manager
-PDM是一款封装了 Aria2 作为内核，并为其套上图形界面的开源免费下载软件。它能让你享受 Aria2 一切的特性，同时又帮助你完全跳过安装和配置 Aria2 那些繁琐的过程，并且有一个图形化的直观界面供你用鼠标进行操作，你就像用迅雷、Folx 等下载工具一样的简单明了，而不必再对着命令行发愁。
-是的，PDM也是有Linux版的。
+PDM是一款封装了 Aria2 作为内核，并为其套上图形界面的开源免费下载软件。它能让你享受 Aria2 一切的特性，同时又帮助你完全跳过安装和配置 Aria2 那些繁琐的过程，并且有一个图形化的直观界面供你用鼠标进行操作，你就像用迅雷、Folx 等下载工具一样的简单明了，而不必再对着命令行发愁。 
+是的，PDM也是有Linux版的。 
 
 ### Syncthing
-Syncthing 最大的特色是采用了与 (BitTorrent Sync) 类似的 P2P 分布式技术，无需中心服务器，即可让多台设备互相实时同步文件，用过 的朋友都明白这种同步方式的优势了。它们两者的实现方式很相似，区别是 属于商业软件，需付费使用，在国内也已被土·啬，而 Syncthing 不仅完全免费且开源，相比 还增加了「文件版本控制」、「单向同步」等堪称杀手级的功能特性。
+Syncthing 最大的特色是采用了与 (BitTorrent Sync) 类似的 P2P 分布式技术，无需中心服务器，即可让多台设备互相实时同步文件，用过 的朋友都明白这种同步方式的优势了。它们两者的实现方式很相似，区别是 属于商业软件，需付费使用，在国内也已被土·啬，而 Syncthing 不仅完全免费且开源，相比 还增加了「文件版本控制」、「单向同步」等堪称杀手级的功能特性。 
+Syncthing 功能上非常接近于 ，不过说它是一款用于搭建网盘的服务器软件或者云存储服务应用似乎并不十分恰当，相较于 Seafile、NextCloud 等服务器工具，Syncthing 实际上更像是一款文件/文件夹同步工具。 
+你可以非常轻松简单地让同一路由器下的多台 PC 电脑、NAS 设备实现局域网互相同步，也可以在 VPS 服务器或 24 小时不关机且有公网 IP 的电脑上安装和配置 Syncthing，让其成为真正意义上的云同步网盘。 
 
-Syncthing 功能上非常接近于 ，不过说它是一款用于搭建网盘的服务器软件或者云存储服务应用似乎并不十分恰当，相较于 Seafile、NextCloud 等服务器工具，Syncthing 实际上更像是一款文件/文件夹同步工具。
+### youtube-dl 
 
-你可以非常轻松简单地让同一路由器下的多台 PC 电脑、NAS 设备实现局域网互相同步，也可以在 VPS 服务器或 24 小时不关机且有公网 IP 的电脑上安装和配置 Syncthing，让其成为真正意义上的云同步网盘。
+You-Get 在我的电脑上并不能正常使用，于是使用 youtube-dl 代替。效果是差不多的。
 
-### You-Get  
-You-Get是一款命令行工具，用来下载网页中的视频、音频、图片，支持众多网站，包含 41 家国内主流视频、音乐网站，如 网易云音乐、AB 站、百度贴吧、斗鱼、熊猫、爱奇艺、凤凰视频、酷狗音乐、乐视、荔枝FM、秒拍、腾讯视频、优酷土豆、央视网、芒果TV 等等，只需一个命令就能直接下载视频、音频以及图片回来，并且可以自动合并视频。而对于有弹幕的网站，比如 B 站，还可以将弹幕下载回来。
+常用使用方式：
 
-### Send Anywhere  
-我在各设备间传输文件使用的软件，免费全平台的文件分享利器，支持的系统、设备多的吓人，甚至连 Windows phone 和 Kindle 都有，而且传输体验非常舒畅，UI也非常漂亮，真的良心。我现在已经抛弃 AirDroid 还有 TeamViewer 了。
+1.自动下载最高画质视频
+
+    youtube-dl -f best 
+
+2.下载视频中的音频 
+
+    youtube-dl -x 
+
+### Feem
+Send Anywhere 的启动速度其实是有点慢的。而我只用到内网传输的功能，于是换成了Feem。Feem虽然有广告。但是其实并不太影响使用体验。
+
+### ~~You-Get~~
+~~ou-Get是一款命令行工具，用来下载网页中的视频、音频、图片，支持众多网站，包含 41 家国内主流视频、音乐网站，如 网易云音乐、AB 站、百度贴吧、斗鱼、熊猫、爱奇艺、凤凰视频、酷狗音乐、乐视、荔枝FM、秒拍、腾讯视频、优酷土豆、央视网、芒果TV 等等，只需一个命令就能直接下载视频、音频以及图片回来，并且可以自动合并视频。而对于有弹幕的网站，比如 B 站，还可以将弹幕下载回来。~~
+
+### ~~Send Anywhere~~ 
+~~我在各设备间传输文件使用的软件，免费全平台的文件分享利器，支持的系统、设备多的吓人，甚至连 Windows phone 和 Kindle 都有，而且传输体验非常舒畅，UI也非常漂亮，真的良心。我现在已经抛弃 AirDroid 还有 TeamViewer 了。~~
 
 ## 效率
 ### Cerebro  
@@ -145,11 +164,18 @@ You-Get是一款命令行工具，用来下载网页中的视频、音频、图�
 ### CopyQ
 类似ditto的剪贴板管理软件，CopyQ 能够存储文本、HTML、以及图像，具有标签页，可通过内置或外部编辑器修改所保存的内容。此外，它也支持拖拉操作、打标签、以及定制命令。
 
-### Double Commander  
- Double Commander 是一款跨平台的开源双栏文件管理器。它受 Total Commander 启发并有自己的新想法。我经常听说 total command 是神器，也看过善用佳软的教学安利，可以说是神往已久，但是一直因为种种原因没有去用，刚好看到这个打算试试。
-
 ### AngrySearch  
  类似Everything的Linux 文件搜索，结果输入即得。
+
+## 文件管理
+
+### Ranger  
+ 一款使用 VI 快捷键的终端文件管理器。还挺好用，~~不过不知道怎么才能看到隐藏文件夹~~。 
+
+    Ctrl+H 显示隐藏文件夹
+
+### Double Commander 
+ Double Commander 是一款跨平台的开源双栏文件管理器。它受 Total Commander 启发并有自己的新想法。我经常听说 total command 是神器，也看过善用佳软的教学安利，可以说是神往已久，但是一直因为种种原因没有去用，刚好看到这个打算试试。 
 
 ## 安全
 
@@ -197,7 +223,12 @@ B站专栏：
  虽然可以直接用 CrossOver 装 AutoCAD 但是尝试一下使用Linux版的 CAD 也是有必要的。在外观方面比 AutoCAD 高到不知道那里去了。不过其他各种功能有很多微妙的差距，比如说命令行不能按空格确定、偏移指令没找到、修剪之类的操作方式变了好多……图画出来是没啥问题，不过对我这种用惯了 AutoCAD 的人来说，还需要一段时间适应。
 教程的话……官方Wiki（英文）： 
 
-## 文本
+## 文本编辑器
+
+### VScode
+
+微软出品的开源文本编辑器，用着是真的香。
+
 ### Atom  
  21 世纪的可 hack 文本编辑器。拥有大量的插件、主题，不仅仅能用作写代码，作为markdown编辑器也是不错的选择，再加上 git 相关的插件，能非常方便地修改GitHub上的内容。
 我正在使用主题：
@@ -282,9 +313,6 @@ zsh-completions — 应该是自动补全，不过我没试出来怎么用，网
 ### git  
  Git 是一款免费和开源的分布式版本管理系统，被设计用来快速和高效地处理从小项目到大项目的一切内容。
 
-### Ranger  
- 一款使用 VI 快捷键的终端文件管理器。还挺好用，不过不知道怎么才能看到隐藏文件夹。
-
 ### xmodmap
  xmodmap 是一个在 X 图形环境下用于修改键盘和鼠标按钮映射的工具。我习惯将大写锁定键设为Ctrl键，Ctrl键设为ESC键，ESC键设为Delete键。
 教程：  
@@ -299,7 +327,7 @@ zsh-completions — 应该是自动补全，不过我没试出来怎么用，网
  杰出的应用，它能纠正你的输入的错误命令。
 
 ## 其他
-### tele，gram  ，gram.org/
+### telegram 
  可以说是在聊天体验方面做的最好一款软件。(虽然在酷安都已经是连名字都不能说的软件了……)
 
 ### 7zip
