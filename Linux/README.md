@@ -53,9 +53,9 @@
     - [Typora](#typora)
   - [游戏](#游戏)
     - [Minecraft](#minecraft)
-    - [CMPDL](#cmpdl)
   - [美化](#美化)
     - [GNOME](#gnome)
+    - [Conky](#conky)
     - [Adapta Theme](#adapta-theme)
     - [Papirus Icon Theme](#papirus-icon-theme)
   - [命令行](#命令行)
@@ -270,14 +270,25 @@ activate-power-mode — 超级酷炫的效果，不过
 ### Minecraft  
 简评我一直都在玩的游戏，详细介绍请看 
 
-### CMPDL  
-简评vazkii制作的整合包下载工具。
-详细介绍推荐酒石酸的B站视频 
-
 ## 美化
 ### GNOME  
  GNOME 桌面环境是一个有吸引力且直观的的桌面，拥有大量的插件。
 (虽然我现在并不是这个)
+
+### Conky 
+
+右上角日期中文乱码 
+Manjaro-i3 在安装和安装好以后，右上角的日期 某月 星期几 都是框框乱码。解决办法如下： 
+
+1. 找到 /usr/share/conky/conky_maia 
+2. 使用 vim 命令 ：%s/Bitstream Vera/anti/ 统一修改把 Bitstream Vera 修改为 anti 
+
+然后就方块就变成中文了。 
+
+作者：lizhongyue248
+链接：https://hacpai.com/article/1552717494529
+来源：黑客派
+协议：CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/
 
 ### Adapta Theme  
  一款自适应的 Gtk+ 主题，遵循 Material 设计指南。
