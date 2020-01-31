@@ -69,13 +69,7 @@
     - [The Fuck](#the-fuck)
   - [其他](#其他)
     - [telegram](#telegram)
-    - [7zip](#7zip)
-    - [Xmind](#xmind)
-    - [CrossOver](#crossover)
-    - [Gparted](#gparted)
-    - [virtualbox](#virtualbox)
-    - [undistract me](#undistract-me)
-    - [搜狗输入法](#搜狗输入法)
+    - [输入法](#输入法)
 
 <!-- /code_chunk_output -->
 
@@ -204,12 +198,15 @@ Send Anywhere 的启动速度其实是有点慢的。而我只用到内网传输
 入门推荐看官方的这个： 
 
 ### FFmpeg  
- 神器，FFmpeg 是一个多媒体编解码器库，并提供了命令行前端。许多软件都使用了 FFmpeg 来进行音频和视频的编解码，特别是像 MPlayer 这样的多媒体播放器。
-入门教程推荐看这个： 
+神器，FFmpeg 是一个多媒体编解码器库，并提供了命令行前端。许多软件都使用了 FFmpeg 来进行音频和视频的编解码，特别是像 MPlayer 这样的多媒体播放器 
+常用命令：
+1.压制ass字幕 
 
-B站专栏： 
+    ffmpeg -i input.mp4 -vcodec libx264 -preset medium -crf 23 -vf "ass=input.ass" output.mp4
 
-实际应用（B站专栏）： 
+2.精确时间拆分视频 
+
+    ffmpeg -ss 01:08:43 -to 01:12:00 -accurate_seek -i input.mp4 -codec copy -avoid_negative_ts 1 output.mp4
 
 ## 图片
 ### GIMP  
@@ -341,23 +338,5 @@ zsh-completions — 应该是自动补全，不过我没试出来怎么用，网
 ### telegram 
  可以说是在聊天体验方面做的最好一款软件。(虽然在酷安都已经是连名字都不能说的软件了……)
 
-### 7zip
- 解压缩……
-
-### Xmind  
- 脑图工具，免费版我觉得已经够用。
-
-### CrossOver
- 不需要虚拟机即可在Linux运行Windows的程序。在deepin免费。
-
-### Gparted
- 分区工具。
-
-### virtualbox
- 虚拟机
-
-### undistract me  
-简介：在长时间执行的终端命令结束的时候提醒你。
-
-### 搜狗输入法
-简介：deepin自带，使用起来还不错。
+### 输入法
+简介：
