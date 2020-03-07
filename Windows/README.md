@@ -32,8 +32,7 @@
     - [OBS Studio](#obs-studio)
     - [PotPlayer](#potplayer)
   - [文本编辑](#文本编辑)
-    - [ATOM](#atom)
-    - [Notepad++](#notepad)
+    - [VScode](#vscode)
   - [工具](#工具)
     - [2345看图王](#2345看图王)
     - [AutoHotkey](#autohotkey)
@@ -41,7 +40,9 @@
     - [cmder](#cmder)
     - [VirtualBox](#virtualbox)
     - [ditto](#ditto)
+  - [游戏](#游戏)
     - [minecraft](#minecraft)
+    - [ArchWSL](#archwsl)
 
 <!-- /code_chunk_output -->
 
@@ -145,15 +146,8 @@
 简评:多媒体播放器，解码器众多，配置能力强。虽然被挂ffmpeg的耻辱柱……但它就是好用啊_(:з」∠)_
 
 ## 文本编辑
-### ATOM 
-简评:github 出品，可扩展的文本编辑器。
-
-酒石酸介绍视频:
-
-### Notepad++ 
-简评:开源代码编辑器，支持多种编程语言。
-
-酒石酸的介绍视频:
+### VScode
+使用了各种文本编辑器之后，发现还是微软的 VScode 香。
 
 ## 工具
 ### 2345看图王
@@ -184,6 +178,12 @@
 
 善用佳软:ditto.htm
 
-九、游戏
+## 游戏
 ### minecraft
 具体介绍看我的这条评论:
+
+### ArchWSL
+Windows Subsystem for Linux（简称WSL）是一个在Windows 10上能够运行原生Linux二进制可执行文件（ELF格式）的兼容层。 
+之前我的 Manjaro 滚挂了。再加上工作的原因。于是我重新装回了Windows。老实说确实挺香的。 
+但是，偶尔还是需要用到Linux。于是我安装了WSL。感觉还是挺好用的。 
+微软官方提供的几个发行版我都不是很喜欢用。于是我在GitHub上找了一个ArchLinux的WSL。 
