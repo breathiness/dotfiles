@@ -13,15 +13,14 @@
     - [异次元软件世界](#异次元软件世界)
     - [Windows 绝赞应用](#windows-绝赞应用)
   - [浏览器](#浏览器)
+    - [Firefox](#firefox)
     - [Cent Browser](#cent-browser)
   - [下载工具](#下载工具)
     - [Persepolis Download Manager](#persepolis-download-manager)
-    - [Resilio Sync](#resilio-sync)
   - [效率](#效率)
     - [listary](#listary)
     - [QTTabbar](#qttabbar)
     - [snipaste](#snipaste)
-    - [WGestures 全局鼠标手势](#wgestures-全局鼠标手势)
   - [安全](#安全)
     - [火绒](#火绒)
   - [音乐](#音乐)
@@ -34,10 +33,8 @@
   - [文本编辑](#文本编辑)
     - [VScode](#vscode)
   - [工具](#工具)
-    - [2345看图王](#2345看图王)
     - [AutoHotkey](#autohotkey)
     - [QTranslate](#qtranslate)
-    - [cmder](#cmder)
     - [VirtualBox](#virtualbox)
     - [ditto](#ditto)
   - [游戏](#游戏)
@@ -75,23 +72,20 @@
 
 好的，接下来进入正题。
 
-
 ## 浏览器
+
+### Firefox
+简评：我目前正在使用的浏览器。相比起Chromium系的浏览器优势在于扩展无需梯。
+
 ### Cent Browser 
 简评:「 Cent Browser 」基于 Chromium 制作而成，基本上就是一个客制化的 Google Chrome 浏览器。附带的许多特性显著增强了 Chromium 浏览器的体验。
-
-具体介绍推荐看电脑玩物的这篇文章: 2017/03/cent-browser-google-chrome.html
 
 顺便推荐这篇关于chrome插件的文章: 
 
 ## 下载工具
 ### Persepolis Download Manager 
 简评:PDM是一款封装了 Aria2 作为内核，并为其套上图形界面的开源免费下载软件。它能让你享受 Aria2 一切的特性，同时又帮助你完全跳过安装和配置 Aria2 那些繁琐的过程，并且有一个图形化的直观界面供你用鼠标进行操作，你就像用迅雷、Folx 等下载工具一样的简单明了，而不必再对着命令行发愁。
-
-异次元软件世界介绍: persepolis-download-manager.html
-
-### Resilio Sync 
-简评:Resilio Sync（曾经名为 BitTorrent Sync）是由 BitTorrent 公司开发的专有的对等网络数据同步工具，可在 Windows、OS X、Linux、Android、iOS 和 FreeBSD 上使用。其可在局域网、互联网上通过安全的、分布式的 P2P 技术在不同设备之间同步文件。
+而且关键是PDM为跨平台的软件，更换平台后无需切换浏览器扩展。
 
 ## 效率
 ### listary 
@@ -107,7 +101,7 @@
 这篇电脑玩物的介绍虽然老，但是还是推荐看一看的: 
 
 ### snipaste 
-简评:简单强大的截图工具并可以将截图贴到桌面；截图元素检测功能惊艳。
+简评:简单强大的截图工具并可以将截图贴到桌面；到了PRO版本后新增了
 
 具体介绍推荐
 小众软件:snipaste/
@@ -115,12 +109,6 @@
 少数派的采访:
 电脑玩物:2016/07/snipaste.html
 异次元软件世界:snipaste.html
-
-### WGestures 全局鼠标手势 
-简评:WGestures 是一款免费且开源的国产软件。作为一个全局的鼠标手势软件，WGestures 可以作用于几乎所有的 Windows 程序！你可以设置手势来执行前进、后退、关闭窗口、最大化、最小化、复制、粘贴、执行命令代码、输出文本、打开网址、运行程序、执行快捷键等等实用的操作。
-
-详细介绍推荐
-异次元软件世界:wgestures.html
 
 ## 安全
 ### 火绒 
@@ -150,9 +138,6 @@
 使用了各种文本编辑器之后，发现还是微软的 VScode 香。
 
 ## 工具
-### 2345看图王
-简评:流氓系列里不那么流氓的软件……
-
 ### AutoHotkey 
 简评:开源 Windows 脚本语言，用户可以轻松创建各种脚本完成各种任务。
 
@@ -162,11 +147,6 @@
 简评:小巧且超级好用的翻译工具。
 
 电脑玩物:2014/09/qtranslate.html
-
-### cmder 
-简评:Windows 下的便携式控制台模拟器，支持窗口缩放、复制文本、git、快捷键操作。
-
-反斗软件:cmder.html
 
 ### VirtualBox 
 简评:VirtualBox 完全免费开源，可跨平台运行在 Win、Mac、Linux 系统上。加上该虚拟机功能强大且性能出色，可以流畅虚拟运行各大主流操作系统，如微软全系列 (包括 Windows 10) / Linux 各种发行版 (Ubuntu / CentOS / Deepin ) 甚至是 Android 等，能应对各种场景需求。因此它一直是无数用户首选的虚拟机软件……
@@ -180,10 +160,7 @@
 
 ## 游戏
 ### minecraft
-具体介绍看我的这条评论:
 
 ### ArchWSL
 Windows Subsystem for Linux（简称WSL）是一个在Windows 10上能够运行原生Linux二进制可执行文件（ELF格式）的兼容层。 
-之前我的 Manjaro 滚挂了。再加上工作的原因。于是我重新装回了Windows。老实说确实挺香的。 
-但是，偶尔还是需要用到Linux。于是我安装了WSL。感觉还是挺好用的。 
 微软官方提供的几个发行版我都不是很喜欢用。于是我在GitHub上找了一个ArchLinux的WSL。 
