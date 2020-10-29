@@ -1,0 +1,528 @@
+{
+  "title": "MiXplorer",
+  "package": "com.mixplorer.silver",
+  "date": "2020\/10\/22 11:38:24",
+  "type": 0,
+  "db": {
+    "uris": [
+      {
+        "pid": 14,
+        "uri": "ftp:\/\/192.168.2.129",
+        "title": "MAGICBOOK",
+        "user": "",
+        "secret": "",
+        "properties": "##tAko5-Q43fCebJzEdpL8gyfOQK_Fb10DtuZXDIFBNDvnqoxvDyPiVCDzxosuKSdFfM7fh31IVfyA4jwXMzX6t8ihCfJ_2Olo0UTNX70aotnhXULPXAPx6-y6wr4k0YQvWfwxCpA4i31S9Wcpbks0IA"
+      },
+      {
+        "pid": 14,
+        "uri": "\/storage\/emulated\/0",
+        "title": "Internal storage",
+        "user": "",
+        "secret": "",
+        "properties": ""
+      },
+      {
+        "pid": 14,
+        "uri": "\/",
+        "title": "Root",
+        "user": "",
+        "secret": "",
+        "properties": ""
+      },
+      {
+        "pid": 14,
+        "uri": "\/*1234567890123",
+        "title": "Custom",
+        "user": "*fldr*",
+        "secret": "TCiOdfjj8Bi4fmdDQIbFZQ",
+        "properties": "##"
+      },
+      {
+        "pid": 14,
+        "uri": "content:\/\/mix\/audio",
+        "title": "Audio",
+        "user": "",
+        "secret": "",
+        "properties": ""
+      },
+      {
+        "pid": 14,
+        "uri": "content:\/\/mix\/video",
+        "title": "Video",
+        "user": "",
+        "secret": "",
+        "properties": ""
+      },
+      {
+        "pid": 14,
+        "uri": "content:\/\/mix\/image",
+        "title": "Image",
+        "user": "",
+        "secret": "",
+        "properties": ""
+      },
+      {
+        "pid": 14,
+        "uri": "content:\/\/mix\/apk",
+        "title": "APK",
+        "user": "",
+        "secret": "",
+        "properties": ""
+      },
+      {
+        "pid": 14,
+        "uri": "content:\/\/mix\/archive",
+        "title": "Archive",
+        "user": "",
+        "secret": "",
+        "properties": ""
+      },
+      {
+        "pid": 14,
+        "uri": "content:\/\/mix\/document",
+        "title": "Document",
+        "user": "",
+        "secret": "",
+        "properties": ""
+      },
+      {
+        "pid": 14,
+        "uri": "content:\/\/mix\/app",
+        "title": "App",
+        "user": "",
+        "secret": "",
+        "properties": ""
+      },
+      {
+        "pid": 14,
+        "uri": "content:\/\/mix\/all",
+        "title": "All Files",
+        "user": "",
+        "secret": "",
+        "properties": ""
+      },
+      {
+        "pid": 14,
+        "uri": "content:\/\/mix\/recent",
+        "title": "Recent",
+        "user": "",
+        "secret": "",
+        "properties": ""
+      },
+      {
+        "pid": 14,
+        "uri": "content:\/\/mix\/trash",
+        "title": "Recycle bin",
+        "user": "",
+        "secret": "",
+        "properties": ""
+      },
+      {
+        "pid": 14,
+        "uri": "ftp:\/\/192.168.2.226:2222",
+        "title": "FTP",
+        "user": "",
+        "secret": "",
+        "properties": "passive=\nactive=\nport=\nforce_show_hidden=\nconnect_timeout=\nencoding=\nlist_name=\nlimit_conns=\nthumbnail="
+      },
+      {
+        "pid": 8,
+        "uri": "\/storage\/emulated\/0\/Download\/[VCB-Studio] Paprika [Ma10p_1080p]\/CDs",
+        "title": "",
+        "user": "",
+        "secret": "",
+        "properties": ""
+      },
+      {
+        "pid": 8,
+        "uri": "\/storage\/emulated\/0\/Download\/[VCB-Studio] Paprika [Ma10p_1080p]",
+        "title": "",
+        "user": "",
+        "secret": "",
+        "properties": ""
+      },
+      {
+        "pid": 8,
+        "uri": "\/storage\/emulated\/0\/Download",
+        "title": "",
+        "user": "",
+        "secret": "",
+        "properties": ""
+      },
+      {
+        "pid": 8,
+        "uri": "\/storage\/emulated\/0",
+        "title": "",
+        "user": "",
+        "secret": "",
+        "properties": ""
+      },
+      {
+        "pid": 8,
+        "uri": "\/storage\/emulated\/0\/videos",
+        "title": "",
+        "user": "",
+        "secret": "",
+        "properties": ""
+      },
+      {
+        "pid": 8,
+        "uri": "\/storage\/emulated\/0\/videos\/【1080P__收藏向__高画质】《无头骑士异闻录》全四季  NCOP+NCED.mp4",
+        "title": "",
+        "user": "",
+        "secret": "",
+        "properties": "file=1"
+      },
+      {
+        "pid": 8,
+        "uri": "\/storage\/emulated\/0\/Android",
+        "title": "",
+        "user": "",
+        "secret": "",
+        "properties": ""
+      },
+      {
+        "pid": 8,
+        "uri": "\/storage\/emulated\/0\/Movies",
+        "title": "",
+        "user": "",
+        "secret": "",
+        "properties": ""
+      },
+      {
+        "pid": 8,
+        "uri": "\/storage\/emulated\/0\/Movies\/NewPipe\/TUYU - Trapped in the Past MV.webm",
+        "title": "",
+        "user": "",
+        "secret": "",
+        "properties": "file=1"
+      },
+      {
+        "pid": 8,
+        "uri": "\/storage\/emulated\/0\/Movies\/NewPipe",
+        "title": "",
+        "user": "",
+        "secret": "",
+        "properties": ""
+      },
+      {
+        "pid": 8,
+        "uri": "\/storage\/emulated\/0\/tieba",
+        "title": "",
+        "user": "",
+        "secret": "",
+        "properties": ""
+      },
+      {
+        "pid": 8,
+        "uri": "\/storage\/emulated\/0\/Y2hlcy8",
+        "title": "",
+        "user": "",
+        "secret": "",
+        "properties": ""
+      },
+      {
+        "pid": 5,
+        "uri": "\/storage\/emulated\/0\/Pictures",
+        "title": "",
+        "user": "",
+        "secret": "",
+        "properties": "##"
+      },
+      {
+        "pid": 5,
+        "uri": "\/storage\/emulated\/0\/videos",
+        "title": "",
+        "user": "",
+        "secret": "",
+        "properties": "##"
+      },
+      {
+        "pid": 5,
+        "uri": "\/storage\/emulated\/0\/Music",
+        "title": "",
+        "user": "",
+        "secret": "",
+        "properties": "##"
+      },
+      {
+        "pid": 5,
+        "uri": "\/storage\/emulated\/0\/Movies",
+        "title": "",
+        "user": "",
+        "secret": "",
+        "properties": "##"
+      },
+      {
+        "pid": 5,
+        "uri": "\/storage\/emulated\/0\/Android",
+        "title": "",
+        "user": "",
+        "secret": "",
+        "properties": "##"
+      },
+      {
+        "pid": 5,
+        "uri": "\/storage\/emulated\/0\/Download",
+        "title": "",
+        "user": "",
+        "secret": "",
+        "properties": "##"
+      },
+      {
+        "pid": 5,
+        "uri": "\/storage\/emulated\/0\/IDMP",
+        "title": "",
+        "user": "",
+        "secret": "",
+        "properties": ""
+      },
+      {
+        "pid": 2,
+        "uri": "\/storage\/emulated\/0",
+        "title": "",
+        "user": "",
+        "secret": "",
+        "properties": "##upUyA52Vjibm1a2ayuku7iiTYE--3Osoq7SLDiDqeYC9bPLvjxBHhJyMEWKe1Fm-T4c0Tmm-Mpj0ysQm9aLEGf_BhuO5Xu0r-DYYJVdcgZM"
+      },
+      {
+        "pid": 2,
+        "uri": "\/",
+        "title": "",
+        "user": "",
+        "secret": "",
+        "properties": "sort=0"
+      },
+      {
+        "pid": 2,
+        "uri": "content:\/\/mix\/audio",
+        "title": "",
+        "user": "",
+        "secret": "",
+        "properties": "sort=6\nsort_group_parents=false"
+      },
+      {
+        "pid": 2,
+        "uri": "content:\/\/mix\/video",
+        "title": "",
+        "user": "",
+        "secret": "",
+        "properties": "sort=6\nsort_group_parents=false"
+      },
+      {
+        "pid": 2,
+        "uri": "content:\/\/mix\/image",
+        "title": "",
+        "user": "",
+        "secret": "",
+        "properties": "sort=4"
+      },
+      {
+        "pid": 2,
+        "uri": "content:\/\/mix\/apk",
+        "title": "",
+        "user": "",
+        "secret": "",
+        "properties": "sort_group_parents=false"
+      },
+      {
+        "pid": 2,
+        "uri": "content:\/\/mix\/archive",
+        "title": "",
+        "user": "",
+        "secret": "",
+        "properties": "sort=6\nsort_group_parents=false"
+      },
+      {
+        "pid": 2,
+        "uri": "content:\/\/mix\/document",
+        "title": "",
+        "user": "",
+        "secret": "",
+        "properties": "sort=4\nsort_group_parents=false"
+      },
+      {
+        "pid": 2,
+        "uri": "content:\/\/mix\/app",
+        "title": "",
+        "user": "",
+        "secret": "",
+        "properties": "sort=4"
+      },
+      {
+        "pid": 2,
+        "uri": "content:\/\/mix\/all",
+        "title": "",
+        "user": "",
+        "secret": "",
+        "properties": "sort=4"
+      },
+      {
+        "pid": 2,
+        "uri": "content:\/\/mix\/recent",
+        "title": "",
+        "user": "",
+        "secret": "",
+        "properties": "sort=4"
+      },
+      {
+        "pid": 2,
+        "uri": "content:\/\/mix\/trash",
+        "title": "",
+        "user": "",
+        "secret": "",
+        "properties": "sort=8"
+      },
+      {
+        "pid": 1,
+        "uri": "\/storage\/emulated\/0",
+        "title": "",
+        "user": "",
+        "secret": "",
+        "properties": "##c1vDAHAcR-CJ9Z3OC8tTEA"
+      },
+      {
+        "pid": 1,
+        "uri": "\/",
+        "title": "",
+        "user": "",
+        "secret": "",
+        "properties": "view=5"
+      },
+      {
+        "pid": 1,
+        "uri": "content:\/\/mix\/video",
+        "title": "",
+        "user": "",
+        "secret": "",
+        "properties": "view=3"
+      },
+      {
+        "pid": 1,
+        "uri": "content:\/\/mix\/image",
+        "title": "",
+        "user": "",
+        "secret": "",
+        "properties": "view=3"
+      },
+      {
+        "pid": 1,
+        "uri": "content:\/\/mix\/apk",
+        "title": "",
+        "user": "",
+        "secret": "",
+        "properties": "view=3"
+      },
+      {
+        "pid": 1,
+        "uri": "content:\/\/mix\/document",
+        "title": "",
+        "user": "",
+        "secret": "",
+        "properties": "view=5"
+      },
+      {
+        "pid": 1,
+        "uri": "content:\/\/mix\/app",
+        "title": "",
+        "user": "",
+        "secret": "",
+        "properties": "view=3"
+      },
+      {
+        "pid": 1,
+        "uri": "content:\/\/mix\/all",
+        "title": "",
+        "user": "",
+        "secret": "",
+        "properties": "view=5"
+      },
+      {
+        "pid": 1,
+        "uri": "content:\/\/mix\/recent",
+        "title": "",
+        "user": "",
+        "secret": "",
+        "properties": "view=5"
+      }
+    ],
+    "packages": [
+      {
+        "extension": "png:1481493647",
+        "package": "com.fooview.android.fooview",
+        "classname": "com.fooview.android.fooview.FooPlayerProxy"
+      },
+      {
+        "extension": "mkv:1481493647",
+        "package": "com.mxtech.videoplayer.pro",
+        "classname": "com.mxtech.videoplayer.pro.ActivityScreen"
+      },
+      {
+        "extension": "jpg:1481493647",
+        "package": "com.fooview.android.fooview",
+        "classname": "com.fooview.android.fooview.FooPlayerProxy"
+      },
+      {
+        "extension": "jpeg:1481493647",
+        "package": "com.augustus.piccool",
+        "classname": "com.augustus.piccool.activity.OutGalleryActivity"
+      },
+      {
+        "extension": "bds:1481493647",
+        "package": "com.baidu.input_huawei",
+        "classname": "com.baidu.input_huawei.ImeUpdateActivity"
+      },
+      {
+        "extension": "apk:1481493647",
+        "package": "com.android.packageinstaller",
+        "classname": "com.android.packageinstaller.InstallStart"
+      }
+    ]
+  },
+  "pref": {
+    "main": {
+      "RADIO_HIDE_MODE": -571661298,
+      "RADIO_VIEW_NET": 1031153567,
+      "full_filename": true,
+      "text_editor": "encoding=\nwrap=false\nfontsize=22\nline_numbers=true\nhighlight=\nauto_indent=true\neditor_mode=0\nfull_view_size=0\nchars_view=true\nfullscreen=false\nhighlight_old=\nspell_check=false\nno_keyboard=false\nsaved_offs=e98c2a07:0\nauto_complete=false\nstart_with_keyboard=true",
+      "custom_key_AUTO_TASKS": "",
+      "default_locale": "zh-rCN",
+      "custom_key_CHROMA": "xxxxx",
+      "tap_to_execute": false,
+      "allow_root": false,
+      "drawer_mode": 0,
+      "player": "loop_mode=1\nshuffled=false\nbrightness=33\nminimized=false\nhw=false\norientation=0\nencoding=\nsubtitle_size=12\nsubtitle_color=16777215\nresume_start=true\nspeed=1.0\nauto_hide_ctrls=true",
+      "dual_panel": true,
+      "night_skin": "",
+      "custom_key_last_path": "\/storage\/emulated\/0\/Download",
+      "only_folder_name": false,
+      "saved_customized": "bilibili",
+      "custom_key_DNS_SCANNER": "",
+      "RADIO_EXTRACT_ARCHIVE": -2080888877,
+      "folder_size": true,
+      "merge_tasks": true,
+      "custom_otg": true,
+      "custom_key_op_dlg_toggle": "false",
+      "custom_key_PICK_FILE_REMEMBER": "0",
+      "custom_key_increment_num_format": " (%01d)",
+      "ebook_reader": "orientation=0\nnight_mode=true",
+      "custom_key_AGREE_PRIVACY": "true",
+      "RADIO_DROP_FILE": 37031608,
+      "breadcrumb": false,
+      "custom_key_Device_Scanner": "",
+      "custom_key_Subnet_Scanner_ftp": "fIAX88tmr7Er-pWMcjpMQksZVDHlHQ_dFJOUZkIwxjp-mcn5M4vxKd_UCPQlWX1Ly8C5yS13uymKo7vn5W_usF2XjI13KQmQp890LHqBP7A",
+      "startup_password": false,
+      "RADIO_RENAME_FILE": 37569494,
+      "global_hidden": false,
+      "keep_last_modified": true,
+      "RADIO_NEW_FILE": 883373345,
+      "menu_orders": "0=0,1,2,3,4,5,06,07,08,09,010,11,12,13,14,15&3=0,1,2,3,4,5,06&5=00,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27"
+    },
+    "skins": {
+      "MiX Aztec": "#wRqViz-zfOIN0zLF7oc_mkZDfoQV68M4w58QyJdDIGjjpW9lQuoAPQaN-eI_ITLU54x-M2TLjLKjCDQ4T9OyISGy9qZiL39jjhd1-P6LRb-BZSEYFKHL9kqyX1O8A-LVHJkRXpr6MtEP3UKcwyivhQlEYdDKmapQWLWcBmwTCrcoNDpGtusw-nE-EOuHX9VSB6Trnm0O0FOYRKB9Fs_YEaTlFSlg573pWCSBJjLCb3sNUeX2OE9a9X1PoNvoDzu4rVDls0s--d-X0B4-5QqblhbF_OeLA2g6lHnDL0atsJWDhlu1GNJjUTJ19k5rgYAlP3cGQdokJ6mbgSoST8EjX6GqDR8FJyQIr12UWf6XBTAru7fheNKtmKmGyKr54b9-f5iyacCvPd4WOXthpk8ID0uZTUTCMO1FHdtA35Lvc1hLuxizK1rJstUUYjtx0Y8lvzpeGT4ph26dbtzYYicfGFFM9vke5ctOOyQk0RX8OYWm-U8yofsV-nulrJQDb7GcNO6x3tbMhM5LmpQyYvfUDYEVkx7zO5JqVcgkpr6YecRS76jWjq8vzOovHLlrZzUv5cKvfLY6EJWA7JD-iMDSGoRLwTsQWIpJOAzYaHoMVEca2jbsYtjFmS1jDnEJE-tlQTiRaBihpfXikFUcJmWIapWGF0_-qcYCr4e95Tj3tMgj09WqDzGPH6FBWUIeSqt-LKj-iz1XBNAypn3J2Zlt4yv-MqxoJkMqurDk8IimnMJGc3VNmSfuGeSweZHXRtH1wxkGpGGknceNEc8S0j76rgwyLh17p6xF2SkVQSatou1SnBmiheQZu2sPT_2kvqLpS6-zQzqkXkFMiWdIhw1XAEDMjYeVR5Qjtymr1_JxFia7CaUVpVzTIGQXtUEsLxv5F5dGkzoADEz8hmzNYWd0QXTMTiYFkFkQH2SS5R4FtgzOi37Y5BP9thJV1KftYAKWKeNywCHDxMASgEVCdV9tsUXDp88WSLOFUIVceDt9-GfJJwUuSu_5HBpZYOt_HrFzvaIkRgBqhlR_6pSsTOCLjqaFP726eIp0zYsuglqmh10",
+      "bilibili": "#n8CPqdttdpmKH1VzQYfy-QbvF-LteRJNIZxUZ-YkYi7zQVEu68iYTdHutFJ-hqfzT_yFHM4lo09WkMHBtCKi3DfZu-jYO9zVriokKHuV4R1bgV2VzaHORvW8viGt290KzZREMGgiV5uz9IMET2ICUUHSdOCKvcfyfpTcwm-GNc6y-C2JKjPgGedADfULkYwTvSRXdx-3qAKpX-FN67aIwM5U2O1uwvgd0J0QfEul1fGVvn2Bsq7ih7MdPl1byXNAHyLfURDgoYxAnW6cyA50uqFJCyiOoiAgWBCETnuoNvYOeEA7h9Z0SYdgxvEOas72ynXNGoHXUrKZYaeaGuHIGHYmonptQPmftsalgaGf8t5C2AzkX-uZMSf6o1wamGCKy3SrzT5RAO5MS2HkilgFHvzuZPV5DEWz5LcDjbN23Hw4yoD4NkcL4WmZo1rPESoF6Af2zCDbjToM-y2t-9nP3OfDyZEZxhiJFJIH6DO0rRg4hx0JLRAyTqQdD0C7cPUM_T0es4Y1XESH02G_C6805FS3uxOPsPg3E9fsp7f-eLcQ-obaMCnQI_s6qpM0aqIiNdX3lWcC-p4cYr82aLz3mdZFp9wLZRoBzfSMqthwbS2lMj0pv9X_r6JIOO7U1ykB3nUuiGcjwTyidC9sehaoQtJYGjyDoHENYFmVbHuqeKDp2L2K5Nhm0DQgvymP1-L7NG8VJshMDqbgLARL0kEvlw3n_GMFjaHHJGnno6foPIRr9uuMu4UeD0xuY99snmq4lLnX9ezc4Dx9Dp9KRkMacD3ChUvDGWPZ9o4VHEYrFzajt3otmLU9LGnmu5w4mKKjY-C4r5OA9czmt-o3DJEbljLL1YxIaIgAcuBepilGxzftYvkCJzv0WHeFShNi-2AnVNkV9w8uuYI7ueIME7F6NMqQ-F3Py7cd4Bk4GZKIT4xSFaaHuJBswrnhiogGyDSn2n7awRP65JQ-arH-4Xyzcs3K84COmmc2Q-Ag8rRIoWAZwcRXg66f5o6ETb6_Zetq",
+      "MiX Gray": "#cQK69eoVgupEskHCt57_89NgSzNFk8MBuvNgX7h-4w0FwG4VbAHcHlEGlIBsyM_9Y16DiluoMUrhmh7NMeL58sqnhOx8Ixi7XGQB222BipbnnGz10ClTJgx7DAiucD6lfcEIyvmNYZ3-aYc4moCSm2NwkOi30R7FZQD0fanEqAAPygsaqvuQncsQN7j0zkJOt88y9L7Zyf_htFqEtLY3vb6h3jsobo92mDNASBJ5RYtucCr5S8cMNMERS8JmA3bz5LTyNLO68aWu_UrAw8RTu4OZJL2lJOfY0rdb5Bf5iR50cHaAmJWM8GwO2_NRSTM6dYXH8xzvDhw8pElp-0hkci6TAk8qvI5gcRPfbDSkdEjmUImRguNcRf4KZHleNLNL_PMFGXGdnrgSvQGzN6HXP73WdaEIjgIHuz_R_deBAs6N5Vz8W-JbTg3_BA3oNAglv6rGbvhaw9jv3TTjPE5xXkUliWeH-UdrGuJP4RwfHSTknVWkKbzq5JcZa3MnpY0LRXZ4x-RAh0mzW1a6Bu9yObTwrFaXfsMm7t5mtgoKO0KlLXMtxvzK9uL8IehJ3MRFDPGw11eZYHwE0Tk_ehTrMLyxrqiSt1A8AIEGtyGY_RS9bziGzLsSehDperWIWytdbXY52Vcir3lH4MCJ35hrAMSOyjhA-gaWoxVFQav-xMlWP3PkcEcn7ym80OnYDSyAnIkUSRGmoXX4dChu4KaUCJckKaSQWN4K37pzvRli6_AtXcoSesLwt50rM0sf-Ktxxx5sXkk8tenoDndMsa403RNdUMFsXo1nx_c1-IWwfu8pjRA5J_saDlpUgh62hA9TyY8UH47meaUtoK3Cd2FtESezcNYz92U-NlrBgNuQ9KcXifDp5CHZfQ_gE_L5MYomZaMq6olN591teucb0eRKYFtllJQ7amcF0_jwdLG4hSiBAcLH1RBWTSeyhv93zVyG_TeFJJFR7Udfu826x8l40w"
+    },
+    "servers": {}
+  }
+}
