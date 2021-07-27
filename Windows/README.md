@@ -143,7 +143,11 @@ QTTabbar 可以帮你在 Windows Explorer 介面中增加一条新的工具列�
 Ditto 是一款开源、免费、强大的剪贴板增强工具。可以把复制过的所有内容保存起来（可以设定保存日期或条目总数），快捷地供后续调用。还可以合并粘贴，纯文本粘贴，支持分组、置顶、快速搜索、热键粘贴功能。并且，还可以通过网络共享剪贴板内容。
 项目链接：https://ditto-cp.sourceforge.io/
 
-## 游戏
+## 游戏  
+### Steam  
+游戏商城，支持下载、安装、同步你的游戏。除了游戏也有部分软件。
+项目链接：https://store.steampowered.com/
+
 ### minecraft
 项目链接：https://www.minecraft.net/zh-hans
 
