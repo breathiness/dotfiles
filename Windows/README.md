@@ -126,7 +126,11 @@
 使用了各种文本编辑器之后，发现还是微软的 VScode 香。
 项目链接：https://code.visualstudio.com
 
-## 工具
+## 工具  
+### Win3WM  
+在 Win10 上还原 i3WM 操作的平铺式窗口管理器。  
+项目链接：https://github.com/McYoloSwagHam/win3wm
+
 ### Listary 
 Listary 是一款用于 Windows 的文件名定位/搜索辅助软件。
 项目链接：https://www.listary.com/
