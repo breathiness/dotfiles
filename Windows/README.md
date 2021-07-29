@@ -32,11 +32,14 @@
   - [文本编辑](#文本编辑)
     - [VScode](#vscode)
   - [工具](#工具)
+    - [Win3WM](#win3wm)
     - [Listary](#listary)
     - [QTTabbar](#qttabbar)
     - [snipaste](#snipaste)
     - [ditto](#ditto)
+    - [Ventoy](#ventoy)
   - [游戏](#游戏)
+    - [Steam](#steam)
     - [minecraft](#minecraft)
     - [ArchWSL](#archwsl)
 
@@ -144,8 +147,12 @@ QTTabbar 可以帮你在 Windows Explorer 介面中增加一条新的工具列�
 项目链接：https://zh.snipaste.com/
 
 ### ditto 
-Ditto 是一款开源、免费、强大的剪贴板增强工具。可以把复制过的所有内容保存起来（可以设定保存日期或条目总数），快捷地供后续调用。还可以合并粘贴，纯文本粘贴，支持分组、置顶、快速搜索、热键粘贴功能。并且，还可以通过网络共享剪贴板内容。
+Ditto 是一款开源、免费、强大的剪贴板增强工具。可以把复制过的所有内容保存起来
 项目链接：https://ditto-cp.sourceforge.io/
+
+### Ventoy  
+一个制作可启动U盘的开源工具。无需反复地格式化U盘，你只需要把 ISO/WIM/IMG/VHD(x)/EFI 等类型的文件拷贝到U盘里面就可以启动。
+项目链接：https://www.ventoy.net/cn/index.html
 
 ## 游戏  
 ### Steam  
