@@ -33,6 +33,9 @@
     - [PotPlayer](#potplayer)
   - [文本编辑](#文本编辑)
     - [VScode](#vscode)
+  - [图片](#图片)
+    - [Qimgv](#qimgv)
+    - [Krita](#krita)
   - [工具](#工具)
     - [Win3WM](#win3wm)
     - [Listary](#listary)
@@ -138,6 +141,15 @@
 ### VScode
 使用了各种文本编辑器之后，发现还是微软的 VScode 香。
 项目链接：https://code.visualstudio.com
+
+## 图片  
+### Qimgv  
+图片浏览软件，支持快速移动图片文件夹  
+项目链接：https://github.com/easymodo/qimgv
+
+### Krita  
+自由开源的免费绘画软件，支持概念草图、插画、漫画、动画、接景和 3D 贴图  
+项目链接：https://krita.org/zh/
 
 ## 工具  
 ### Win3WM  
