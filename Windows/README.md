@@ -40,6 +40,7 @@
     - [Win3WM](#win3wm)
     - [Listary](#listary)
     - [QTTabbar](#qttabbar)
+    - [Quicker](#quicker)
     - [snipaste](#snipaste)
     - [ditto](#ditto)
     - [Ventoy](#ventoy)
@@ -163,6 +164,10 @@ Listary 是一款用于 Windows 的文件名定位/搜索辅助软件。
 ### QTTabbar 
 QTTabbar 可以帮你在 Windows Explorer 介面中增加一条新的工具列，并且增加许多实用且令人惊艳的功能，例如标签式（Tab）的浏览与目前我看过最好的快速预览方式。
 项目链接：http://qttabbar.wikidot.com/
+
+### Quicker  
+有丰富动作库的快捷工具库。
+项目链接：https://getquicker.net/
 
 ### snipaste 
 简单强大的截图工具并可以将截图贴到桌面；
