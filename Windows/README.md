@@ -44,6 +44,7 @@
   - [snipaste](#snipaste)
   - [ditto](#ditto)
   - [Ventoy](#ventoy)
+  - [Clash](#clash)
 - [游戏](#游戏)
   - [Steam](#steam)
   - [minecraft](#minecraft)
@@ -180,6 +181,10 @@ Ditto 是一款开源、免费、强大的剪贴板增强工具。可以把复�
 ### Ventoy  
 一个制作可启动U盘的开源工具。无需反复地格式化U盘，你只需要把 ISO/WIM/IMG/VHD(x)/EFI 等类型的文件拷贝到U盘里面就可以启动。  
 项目链接：https://www.ventoy.net/cn/index.html  
+
+### Clash  
+翻墙软件，官方只有命令行版。使用第三方 GUI 版本  
+项目链接：https://github.com/Fndroid/clash_for_windows_pkg  
 
 ## 游戏  
 ### Steam  
