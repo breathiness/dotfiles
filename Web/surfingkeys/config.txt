@@ -44,4 +44,6 @@ addSearchAliasX('d', 'Doge', 'https://www.dogedoge.com/results?q=', 'o');
 addSearchAliasX('m', 'miji', 'https://mijisou.com/?q=', 'o');
 
 settings.defaultSearchEngine = "l";
+
+//按下冒号后立刻出现表情下拉选项  
 settings.startToShowEmoji = 0;

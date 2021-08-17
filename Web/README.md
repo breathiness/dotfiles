@@ -1,43 +1,72 @@
-# 零、前言
 
-# 一、浏览器介绍
-## Firefox
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
-## Chromiun
-简评：开源+谷歌，拥有双重信仰加成的浏览器。当然，就算抛开信仰加成，其自身的质量也是相当高。优秀的性能加上丰富的插件，造就的是精简而又强大的浏览利器。
-在Linux系统上 Chromium 还能享受特殊buff加成：只需要在设置里将样式选项改为 GTK+ 即可继承 GTK+ 主题。颜值飙升的同时也与系统完美融合。
-我的 Linux 使用的主题是 adapta，主打的是质感设计。用在 Chromium 上效果非常棒。
-而且还有非常不错的一点，他的账户同步功能真的是强。只要登录 Google 帐号即可同步书签、历史、主题等，甚至连扩展都直接帮你装好。而且能在电脑不在身边时通过手机为安装插件。
+<!-- code_chunk_output -->
 
-## 扩展
+- [前言](#前言)
+- [浏览器介绍](#浏览器介绍)
+  - [Firefox](#firefox)
+  - [扩展](#扩展)
+    - [Surfingkeys](#surfingkeys)
+- [网页介绍](#网页介绍)
+  - [搜索引擎](#搜索引擎)
+  - [学习](#学习)
+  - [视频](#视频)
+  - [音乐](#音乐)
+  - [图片](#图片)
+  - [阅读](#阅读)
+  - [博客](#博客)
+  - [工具](#工具)
+  - [工作](#工作)
+  - [社交](#社交)
+  - [网络](#网络)
+  - [下载](#下载)
+  - [游戏](#游戏)
+  - [资源](#资源)
+
+<!-- /code_chunk_output -->
 
 
-# 二、网页介绍
+## 前言  
 
-## 搜索引擎
+## 浏览器介绍  
+### Firefox  
+主流浏览器中少有的不使用 Chromium 内核的浏览器。  
+项目链接：https://www.mozilla.org/zh-CN/firefox/new/  
 
-## 学习
+### 扩展  
+#### Surfingkeys  
+Surfingkeys 和现有的一些插件一样，让你尽可能的通过键盘来使用 Chrome/Firefox 浏览器。  
+项目链接：https://github.com/brookhong/Surfingkeys/  
+官方介绍：https://github.com/brookhong/Surfingkeys/blob/master/README_CN.md  
+dotfile：https://github.com/breathiness/dotfiles/blob/master/Web/surfingkeys/config.txt  
 
-## 视频
+## 网页介绍
 
-## 音乐
+### 搜索引擎
 
-## 图片
+### 学习
 
-## 阅读
+### 视频
 
-## 博客
+### 音乐
 
-## 工具
+### 图片
 
-## 工作
+### 阅读
 
-## 社交
+### 博客
 
-## 网络
+### 工具
 
-## 下载
+### 工作
 
-## 游戏
+### 社交
 
-## 资源
+### 网络
+
+### 下载
+
+### 游戏
+
+### 资源
