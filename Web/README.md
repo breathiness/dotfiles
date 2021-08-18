@@ -10,6 +10,7 @@
     - [Surfingkeys](#surfingkeys)
 - [网页介绍](#网页介绍)
   - [搜索引擎](#搜索引擎)
+    - [AnywhereAnything](#anywhereanything)
   - [学习](#学习)
   - [视频](#视频)
   - [音乐](#音乐)
@@ -41,9 +42,12 @@ Surfingkeys 和现有的一些插件一样，让你尽可能的通过键盘来�
 官方介绍：https://github.com/brookhong/Surfingkeys/blob/master/README_CN.md  
 dotfile：https://github.com/breathiness/dotfiles/blob/master/Web/surfingkeys/config.txt  
 
-## 网页介绍
+## 网页介绍  
 
-### 搜索引擎
+### 搜索引擎  
+#### AnywhereAnything  
+目前暂未找到替代品的主页，输入关键词，然后点网站，即在那个网站里搜索。  
+项目链接：http://lackar.com/aa/  
 
 ### 学习
 
