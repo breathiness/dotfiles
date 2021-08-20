@@ -15,8 +15,14 @@
     - [Magi](#magi)
     - [CC search](#cc-search)
     - [鸠摩搜书](#鸠摩搜书)
-    - [萌娘百科](#萌娘百科)
   - [学习](#学习)
+    - [GitHub](#github)
+    - [菜鸟教程](#菜鸟教程)
+    - [ArchWiki](#archwiki)
+    - [维基百科](#维基百科)
+    - [萌娘百科](#萌娘百科)
+    - [wikiHow](#wikihow)
+    - [THBWiki](#thbwiki)
   - [视频](#视频)
   - [音乐](#音乐)
   - [图片](#图片)
@@ -68,13 +74,36 @@ Magi 是由 Peak Labs 研发的基于机器学习的信息抽取和检索系统�
 
 #### 鸠摩搜书  
 搜索网络书籍的专用引擎。  
+项目链接：https://www.jiumodiary.com/  
+
+### 学习  
+#### GitHub
+全球最大的社交编程及代码托管网站  
+项目链接：https://github.com/  
+
+#### 菜鸟教程  
+IT编程类的自学网站  
+项目链接：https://www.runoob.com/  
+
+#### ArchWiki  
+Linux 社区里最好的中文 Wiki。除了 ArchLinux 外也介绍了很多 Linux 软件  
+项目链接：[https://wiki.archlinux.org/title/Main_page](https://wiki.archlinux.org/title/Main_page_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))
+
+#### 维基百科  
+维基百科  
+项目链接：https://zh.wikipedia.org/  
 
 #### 萌娘百科  
 早期为娘化角色百科，现在已经发展成比较齐全的二次元相关百科。  
 项目链接：https://www.moegirl.org  
 
+#### wikiHow  
+学习如何解决大大小小的问题。好用的生活百科。  
+项目链接：https://zh.wikihow.com/  
 
-### 学习
+#### THBWiki  
+以专业性为目标的东方Project维基百科。  
+项目链接：https://thwiki.cc/  
 
 ### 视频
 
