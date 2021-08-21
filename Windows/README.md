@@ -168,7 +168,7 @@ Listary 是一款用于 Windows 的文件名定位/搜索辅助软件。
 项目链接：https://www.listary.com/  
 
 ### QTTabbar  
-QTTabbar 可以帮你在 Windows Explorer 介面中增加一条新的工具列，并且增加许多实用且令人惊艳的功能，例如标签式（Tab）的浏览与目前我看过最好的快速预览方式。  
+QTTabbar 新增标签式（Tab）的浏览与快速预览方式。以及许多实用且令人惊艳的功能。  
 项目链接：http://qttabbar.wikidot.com/  
 
 ### Quicker  
@@ -176,7 +176,7 @@ QTTabbar 可以帮你在 Windows Explorer 介面中增加一条新的工具列�
 项目链接：https://getquicker.net/  
 
 ### snipaste  
-简单强大的截图工具并可以将截图贴到桌面；  
+简单强大的截图工具，并可以将截图贴到桌面；  
 项目链接：https://zh.snipaste.com/  
 
 ### ditto  
