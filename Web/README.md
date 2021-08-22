@@ -8,6 +8,8 @@
   - [Firefox](#firefox)
   - [扩展](#扩展)
     - [Surfingkeys](#surfingkeys)
+    - [暴力猴](#暴力猴)
+      - [Bilibili-Evolved](#bilibili-evolved)
 - [网页介绍](#网页介绍)
   - [搜索引擎](#搜索引擎)
     - [AnywhereAnything](#anywhereanything)
@@ -52,6 +54,14 @@ Surfingkeys 和现有的一些插件一样，让你尽可能的通过键盘来�
 项目链接：https://github.com/brookhong/Surfingkeys/  
 官方介绍：https://github.com/brookhong/Surfingkeys/blob/master/README_CN.md  
 dotfile：https://github.com/breathiness/dotfiles/blob/master/Web/surfingkeys/config.txt  
+
+#### 暴力猴  
+一个开源的用户脚本管理器，支持很多浏览器  
+项目链接：https://violentmonkey.github.io/  
+
+##### Bilibili-Evolved
+强大的哔哩哔哩增强脚本  
+项目链接：https://github.com/the1812/Bilibili-Evolved  
 
 ## 网页介绍  
 
