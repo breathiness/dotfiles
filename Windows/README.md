@@ -30,6 +30,7 @@
 - [视频](#视频)
   - [FFmpeg](#ffmpeg)
   - [达芬奇](#达芬奇)
+  - [Kdenlive](#kdenlive)
   - [OBS Studio](#obs-studio)
   - [PotPlayer](#potplayer)
 - [文本编辑](#文本编辑)
@@ -133,6 +134,10 @@
 ### 达芬奇  
 跨平台视频编辑软件，支持特效、调色、音频编辑  
 项目链接：http://www.blackmagicdesign.com/cn/products/davinciresolve/  
+
+### Kdenlive  
+一款自由开源的视频编辑工具。  
+项目链接：https://kdenlive.org/zh/  
 
 ### OBS Studio  
 屏幕录制或生成直播媒体流  
