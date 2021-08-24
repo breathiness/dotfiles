@@ -106,7 +106,7 @@ Magi 是由 Peak Labs 研发的基于机器学习的信息抽取和检索系统�
 
 #### 菜鸟教程  
 
-IT编程类的自学网站  
+IT 编程类的自学网站  
 项目链接：<https://www.runoob.com/>  
 
 #### ArchWiki  
@@ -131,7 +131,7 @@ Linux 社区里最好的中文 Wiki。除了 ArchLinux 外也介绍了很多 Lin
 
 #### THBWiki  
 
-以专业性为目标的东方Project维基百科。  
+以专业性为目标的东方 Project 维基百科。  
 项目链接：<https://thwiki.cc/>  
 
 ### 视频
