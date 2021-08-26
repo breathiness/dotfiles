@@ -277,9 +277,14 @@ Listary 是一款用于 Windows 的文件名定位/搜索辅助软件。
 QTTabbar 新增标签式（Tab）的浏览与快速预览方式。以及许多实用且令人惊艳的功能。  
 项目链接：<http://qttabbar.wikidot.com/>  
 
-## 工具  
+### PeaZip
 
-### Win3WM  
+开源解压软件，支持自动解压。  
+项目链接：<https://github.com/peazip/PeaZip>
+
+## 工具
+
+### Win3WM
 
 在 Win10 上还原 i3WM 操作的平铺式窗口管理器。  
 项目链接：<https://github.com/McYoloSwagHam/win3wm>  
