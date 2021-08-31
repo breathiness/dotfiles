@@ -10,6 +10,7 @@
     - [Surfingkeys](#surfingkeys)
     - [暴力猴](#暴力猴)
       - [Bilibili-Evolved](#bilibili-evolved)
+      - [简阅](#简阅)
 - [网页介绍](#网页介绍)
   - [搜索引擎](#搜索引擎)
     - [AnywhereAnything](#anywhereanything)
@@ -67,6 +68,11 @@ dotfile：<https://github.com/breathiness/dotfiles/blob/master/Web/surfingkeys/c
 
 强大的哔哩哔哩增强脚本  
 项目链接：<https://github.com/the1812/Bilibili-Evolved>  
+
+##### 简阅
+
+阅读增强及稍后读插件，Firefox 版本插件下线，只能安装离线版  
+项目链接：<http://ksria.com/simpread/>  
 
 ## 网页介绍  
 
