@@ -2,45 +2,57 @@
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
 # Set mod key (Mod1=<Alt>, Mod4=<Super>)
+# 设置 mod key (Mod1=<Alt>, Mod4=<Super>)
 set $mod Mod4
 
 # set default desktop layout (default is tiling)
 # workspace_layout tabbed <stacking|tabbed>
 
 # Configure border style <normal|1pixel|pixel xx|none|pixel>
+# 配置边框样式 <normal|1pixel|pixel xx|none|pixel>
 new_window pixel 1
 new_float normal
 
 # Hide borders
+# 隐藏边框
 hide_edge_borders none
 
 # change borders
+# 改变边界
 bindsym $mod+u border none
 bindsym $mod+y border pixel 1
 bindsym $mod+n border normal
 
 # Font for window titles. Will also be used by the bar unless a different font
+# 窗口标题的字体。除非使用不同的字体，否则也将由该栏使用
 # is used in the bar {} block below.
+# 在下面的条{}块中使用。
 font xft:URWGothic-Book 11
 
 # Use Mouse+$mod to drag floating windows
+# 使用鼠标+$mod 拖动浮动窗口
 floating_modifier $mod
 
 # start a terminal
+# 打开终端模拟器
 bindsym $mod+Return exec terminal
 bindsym $mod+t exec terminal
 
 # kill focused window
+# 关闭窗口
 bindsym $mod+Shift+q kill
 
 # start program launcher
+# 打开程序启动器
 bindsym $mod+d exec --no-startup-id dmenu_recency
 
 # launch categorized menu
+# 启动分类菜单
 bindsym $mod+z exec --no-startup-id morc_menu
 
 ################################################################################################
 ## sound-section - DO NOT EDIT if you wish to automatically upgrade Alsa -> Pulseaudio later! ##
+##                声音部分 - 如果您希望稍后自动升级 Alsa -> Pulseaudio，请勿编辑!               ##
 ################################################################################################
 
 exec --no-startup-id volumeicon
@@ -52,16 +64,19 @@ bindsym $mod+Ctrl+m exec terminal -e 'alsamixer'
 ################################################################################################
 
 # Screen brightness controls
+# 屏幕亮度控制
 # bindsym XF86MonBrightnessUp exec "xbacklight -inc 10; notify-send 'brightness up'"
 # bindsym XF86MonBrightnessDown exec "xbacklight -dec 10; notify-send 'brightness down'"
 
 # Start Applications
+# 启动应用程序
 bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
 bindsym $mod+F2 exec firefox
-bindsym $mod+Ctrl+e exec pcmanfm
-bindsym $mod+e exec terminal -e 'ranger'
+bindsym $mod+e exec pcmanfm
+bindsym $mod+Ctrl+e exec terminal -e 'ranger'
 # bindsym $mod+F3 exec ranger
-bindsym $mod+Shift+F3 exec gksu pcmanfm
+# bindsym $mod+Shift+F3 exec gksu pcmanfm
+bindsym $mod+Shift+e exec gksu pcmanfm
 bindsym $mod+F5 exec terminal -e 'mocp'
 bindsym $mod+Shift+t exec --no-startup-id pkill compton
 bindsym $mod+Ctrl+t exec --no-startup-id compton -b
@@ -72,75 +87,94 @@ bindsym $mod+Shift+Print --release exec --no-startup-id i3-scrot -s
 bindsym $mod+Shift+h exec xdg-open /usr/share/doc/manjaro/i3_help.pdf
 bindsym $mod+Ctrl+x --release exec --no-startup-id xkill
 
+# 聚焦跟随鼠标
 # focus_follows_mouse no
 
 # change focus
+# 改变焦点
 bindsym $mod+j focus left
 bindsym $mod+k focus down
 bindsym $mod+l focus up
 bindsym $mod+semicolon focus right
 
 # alternatively, you can use the cursor keys:
+# 或者，您可以使用光标键：
 bindsym $mod+Left focus left
 bindsym $mod+Down focus down
 bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
 # move focused window
+# 移动聚焦窗口
 bindsym $mod+Shift+j move left
 bindsym $mod+Shift+k move down
 bindsym $mod+Shift+l move up
 bindsym $mod+Shift+semicolon move right
 
 # alternatively, you can use the cursor keys:
+# 或者，您可以使用光标键：
 bindsym $mod+Shift+Left move left
 bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # workspace back and forth (with/without active container)
+# 来回工作空间（带/不带活动容器）
 workspace_auto_back_and_forth yes
 bindsym $mod+b workspace back_and_forth
 bindsym $mod+Shift+b move container to workspace back_and_forth; workspace back_and_forth
 
 # split orientation
+# 新建窗口方向
 bindsym $mod+h split h;exec notify-send 'tile horizontally'
 bindsym $mod+v split v;exec notify-send 'tile vertically'
 bindsym $mod+q split toggle
 
 # toggle fullscreen mode for the focused container
+# 切换聚焦容器至全屏模式
 bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
+# 更改容器布局（堆叠、选项卡式、切换拆分）
 bindsym $mod+s layout stacking
 bindsym $mod+w layout tabbed
 bindsym $mod+F3 layout toggle split
 
 # toggle tiling / floating
+# 切换平铺/浮动
 bindsym $mod+Shift+space floating toggle
 
 # change focus between tiling / floating windows
+# 在平铺/浮动窗口之间改变焦点
 bindsym $mod+space focus mode_toggle
 
 # toggle sticky
+# 切换粘性
 bindsym $mod+Shift+s sticky toggle
 
 # focus the parent container
+# 聚焦父容器
 bindsym $mod+a focus parent
 
 # move the currently focused window to the scratchpad
+# 将当前聚焦的窗口移动到便笺簿
 bindsym $mod+Shift+minus move scratchpad
 
 # Show the next scratchpad window or hide the focused scratchpad window.
 # If there are multiple scratchpad windows, this command cycles through them.
+# 显示下一个便笺窗口或隐藏聚焦的便笺窗口。
+# 如果有多个暂存窗口，这个命令会在它们之间循环
 bindsym $mod+minus scratchpad show
 
-#navigate workspaces next / previous
+# navigate workspaces next / previous
+# 导航下一个/上一个工作区
 bindsym $mod+Ctrl+Right workspace next
 bindsym $mod+Ctrl+Left workspace prev
 
 # Workspace names
+# 工作区名称
 # to display names or symbols instead of plain workspace numbers you can use
+# 要显示名称或符号，而不是普通工作区编号，可以使用以下方式
 # something like: set $ws1 1:mail
 #                 set $ws2 2:
 set $ws1 1
@@ -153,6 +187,7 @@ set $ws7 7
 set $ws8 8
 
 # switch to workspace
+# 切换至工作区
 bindsym $mod+1 workspace $ws1
 bindsym $mod+2 workspace $ws2
 bindsym $mod+3 workspace $ws3
@@ -163,6 +198,7 @@ bindsym $mod+7 workspace $ws7
 bindsym $mod+8 workspace $ws8
 
 # Move focused container to workspace
+# 将聚焦窗口移动到工作区
 bindsym $mod+Ctrl+1 move container to workspace $ws1
 bindsym $mod+Ctrl+2 move container to workspace $ws2
 bindsym $mod+Ctrl+3 move container to workspace $ws3
@@ -173,6 +209,7 @@ bindsym $mod+Ctrl+7 move container to workspace $ws7
 bindsym $mod+Ctrl+8 move container to workspace $ws8
 
 # Move to workspace with focused container
+# 切换至工作区并且将当前聚焦窗口一起移动过去
 bindsym $mod+Shift+1 move container to workspace $ws1; workspace $ws1
 bindsym $mod+Shift+2 move container to workspace $ws2; workspace $ws2
 bindsym $mod+Shift+3 move container to workspace $ws3; workspace $ws3
@@ -183,12 +220,14 @@ bindsym $mod+Shift+7 move container to workspace $ws7; workspace $ws7
 bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
 
 # Open applications on specific workspaces
+# 在特定工作区打开时，开启应用程序
 # assign [class="Thunderbird"] $ws1
 # assign [class="Pale moon"] $ws2
 # assign [class="Pcmanfm"] $ws3
 # assign [class="Skype"] $ws5
 
 # Open specific applications in floating mode
+# 以浮动模式打开特定应用程序
 for_window [title="alsamixer"] floating enable border pixel 1
 for_window [class="calamares"] floating enable border normal
 for_window [class="Clipgrab"] floating enable
@@ -217,18 +256,23 @@ for_window [class="(?i)virtualbox"] floating enable border normal
 for_window [class="Xfburn"] floating enable
 
 # switch to workspace with urgent window automatically
+# 自动切换到带有紧急窗口的工作区
 for_window [urgent=latest] focus
 
 # reload the configuration file
+# 重新加载配置文件
 bindsym $mod+Shift+c reload
 
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+# 就地重启 i3（保留您的布局/会话，可用于升级 i3）
 bindsym $mod+Shift+r restart
 
 # exit i3 (logs you out of your X session)
+# exit i3（让你退出 X 会话）
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
 # Set shut down, restart and locking features
+# 设置关机、重启和锁定
 bindsym $mod+0 mode "$mode_system"
 set $mode_system (l)ock, (e)xit, switch_(u)ser, (s)uspend, (h)ibernate, (r)eboot, (Shift+s)hutdown
 mode "$mode_system" {
@@ -246,6 +290,7 @@ mode "$mode_system" {
 }
 
 # Resize window (you can also use the mouse for that)
+# 调整窗口大小（也可以使用鼠标进行调整）
 bindsym $mod+r mode "resize"
 mode "resize" {
         # These bindings trigger as soon as you enter the resize mode
@@ -270,9 +315,11 @@ mode "resize" {
 }
 
 # Lock screen
+# 锁屏
 bindsym $mod+9 exec --no-startup-id blurlock
 
 # Autostart applications
+# 自动开启应用程序
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec --no-startup-id nitrogen --restore; sleep 1; compton -b
 #exec --no-startup-id manjaro-hello
@@ -300,6 +347,18 @@ exec_always --no-startup-id fix_xcursor
 # to:
 # background $term_background
 # Same logic applied to everything else.
+# 用于终端的调色板（ ~/.Xresources 文件）
+# 根据文档收集颜色：
+# https://i3wm.org/docs/userguide.html#xresources
+# 在要匹配颜色的地方更改变量名
+# 你的终端是这样的：
+# [例子]
+# 如果你想让你的栏和你的栏有相同的背景颜色
+# 终端后台将 362 行从：
+# 背景 #14191D
+# 到：
+# 背景 $term_background
+# 同样的逻辑适用于其他一切。
 set_from_resource $term_background background
 set_from_resource $term_foreground foreground
 set_from_resource $term_color0     color0
@@ -320,12 +379,14 @@ set_from_resource $term_color14    color14
 set_from_resource $term_color15    color15
 
 # Start i3bar to display a workspace bar (plus the system information i3status if available)
+# 启动 i3bar 以显示工作区栏（如果可用，加上系统信息 i3status）
 bar {
 	i3bar_command i3bar
 	status_command i3status
 	position bottom
 
 ## please set your primary output first. Example: 'xrandr --output eDP1 --primary'
+## 请先设置您的主要输出。 示例：'xrandr --output eDP1 --primary'
 #	tray_output primary
 #	tray_output eDP1
 
@@ -349,9 +410,11 @@ bar {
 }
 
 # hide/unhide i3status bar
+# 隐藏/取消隐藏 i3 状态栏
 bindsym $mod+m bar mode toggle
 
 # Theme colors
+# 主题色
 # class                   border  backgr. text    indic.   child_border
   client.focused          #556064 #556064 #80FFF9 #FDF6E3
   client.focused_inactive #2F3D44 #2F3D44 #1ABC9C #454948
@@ -366,22 +429,28 @@ bindsym $mod+m bar mode toggle
 #############################
 
 # Set inner/outer gaps
+# 设置内/外间隙
 gaps inner 14
 gaps outer -2
 
 # Additionally, you can issue commands with the following syntax. This is useful to bind keys to changing the gap size.
+# 此外，您可以使用以下语法发出命令。 这对于绑定键以更改间隙大小很有用。
 # gaps inner|outer current|all set|plus|minus <px>
 # gaps inner all set 10
 # gaps outer all plus 5
 
 # Smart gaps (gaps used if only more than one container on the workspace)
+# 智能间隙（如果工作区上只有一个以上的容器，则使用间隙）
 smart_gaps on
 
 # Smart borders (draw borders around container only if it is not the only container on this workspace) 
 # on|no_gaps (on=always activate and no_gaps=only activate if the gap size to the edge of the screen is 0)
+# 智能边框（仅当它不是此工作区中唯一的容器时才在容器周围绘制边框）
+# on|no_gaps (on=一直激活 no_gaps=只有在屏幕边缘的间隙大小为 0 时激活)
 smart_borders on
 
 # Press $mod+Shift+g to enter the gap mode. Choose o or i for modifying outer/inner gaps. Press one of + / - (in-/decrement for current workspace) or 0 (remove gaps for current workspace). If you also press Shift with these keys, the change will be global for all workspaces.
+# 按 $mod+Shift+g 进入间隙模式。 选择 o 或 i 来修改外部/内部间隙。 按 + / -（当前工作区的 in-/decrement）或 0（删除当前工作区的间隙）之一。 如果您还使用这些键按下 Shift，则所有工作区的更改都将是全局的。
 set $mode_gaps Gaps: (o) outer, (i) inner
 set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
 set $mode_gaps_inner Inner Gaps: +|-|0 (local), Shift + +|-|0 (global)
