@@ -14,53 +14,18 @@
   - [超赞的 Linux 软件](#超赞的-linux-软件)
 - [三、软件列表](#三-软件列表)
   - [浏览器](#浏览器)
-    - [Firefox](#firefox)
   - [下载工具](#下载工具)
-    - [Motrix](#motrix)
-    - [坚果云](#坚果云)
-    - [youtube-dl](#youtube-dl)
-    - [Feem](#feem)
   - [效率](#效率)
-    - [UTools](#utools)
-    - [ClipIt](#clipit)
-    - [AngrySearch](#angrysearch)
   - [文件管理](#文件管理)
-    - [Ranger](#ranger)
-    - [PCManFM](#pcmanfm)
   - [安全](#安全)
   - [音乐](#音乐)
-    - [Netease Music](#netease-music)
-    - [vocal](#vocal)
-    - [Audacious](#audacious)
-    - [Let's make music](#lets-make-music)
   - [视频](#视频)
-    - [VLC](#vlc)
-    - [Open Broadcaster Software(OBS)](#open-broadcaster-softwareobs)
-    - [Kdenlive](#kdenlive)
-    - [FFmpeg](#ffmpeg)
   - [图片](#图片)
-    - [GIMP](#gimp)
   - [文本编辑器](#文本编辑器)
-    - [VScode](#vscode)
   - [游戏](#游戏)
-    - [Minecraft](#minecraft)
   - [美化](#美化)
-    - [GNOME](#gnome)
-    - [Conky](#conky)
-    - [Adapta Theme](#adapta-theme)
-    - [Papirus Icon Theme](#papirus-icon-theme)
   - [命令行](#命令行)
-    - [Zsh](#zsh)
-    - [Oh-my-zsh](#oh-my-zsh)
-    - [Tmux](#tmux)
-    - [git](#git)
-    - [xmodmap](#xmodmap)
-    - [xdotool](#xdotool)
-    - [NeoFetch](#neofetch)
-    - [The Fuck](#the-fuck)
   - [其他](#其他)
-    - [telegram](#telegram)
-    - [输入法](#输入法)
 
 <!-- /code_chunk_output -->
 
@@ -113,24 +78,24 @@ Manjaro 还有个转 Archlinux 的骚操作。亲测没什么问题，可以正�
 
 ## 浏览器
 
-### Firefox
+- Firefox
 
 我目前正在使用的浏览器。直接在浏览器搜索到的官网是中国特供版。注意辨别。  
 项目链接：<https://www.mozilla.org/zh-CN/firefox/new/>  
 
 ## 下载工具
 
-### Motrix
+- Motrix
 
 Motrix 是一款封装了 Aria2 作为内核，并为其套上图形界面的开源免费下载软件。  
 项目链接：<https://motrix.app>  
 
-### 坚果云
+- 坚果云
 
 目前国内最好用的网盘应用，支持云桥、WebDAV;支持在线编辑部分文件  
 项目链接：<https://www.jianguoyun.com/>  
 
-### youtube-dl
+- youtube-dl
 
 下载常用视频网站视频的下载工具  
 常用使用方式：  
@@ -142,34 +107,34 @@ Motrix 是一款封装了 Aria2 作为内核，并为其套上图形界面的开
 
     youtube-dl -x 
 
-### Feem
+- Feem
 
 同一内网中各设备间文件、信息传输工具  
 
 ## 效率
 
-### UTools  
+- UTools  
 
 开源生产力提升工具，类似之前介绍过的Listary。可用于执行命令, 打开应用, 打开网页, 快捷翻译, 搜索. 支持插件。  
 项目地址：<https://u.tools/>  
 
-### ClipIt  
+- ClipIt  
 
 类似ditto的剪贴板管理软件，但仅仅能够存储文本。大部分情况下还是使用 Utools 插件  
 
-### AngrySearch  
+- AngrySearch  
 
 类似Everything的Linux 文件搜索，结果输入即得。  
 
 ## 文件管理
 
-### Ranger  
+- Ranger  
 
 一款使用 VI 快捷键的终端文件管理器。  
 
     Ctrl+H 显示隐藏文件夹
 
-### PCManFM
+- PCManFM
 
 Manjaro i3WM 版自带文件管理器  
 
@@ -177,39 +142,39 @@ Manjaro i3WM 版自带文件管理器
 
 ## 音乐
 
-### Netease Music  
+- Netease Music  
 
 网易与 deepin 团队合作开发的Linux版，使用体验和其他平台的没什么差距。  
 目前使用 VScode 插件代替。  
 
-### vocal  
+- vocal  
 
  Linux 的播客软件，颜值很棒，操作简单。虽然我不常用电脑听播客，不过偶尔用用也不错。  
 
-### Audacious  
+- Audacious  
 
  免费，开源，跨平台的声音录制、编辑软件。  
 
-### Let's make music  
+- Let's make music  
 
  在你的 PC 上制作音乐，创造旋律和节拍，合成，混音，编曲小样以及更多内容。  
 
 ## 视频
 
-### VLC  
+- VLC  
 
  VLC 是一个免费且开源的跨平台媒体播放器以及框架，可以播放大多数格式的多媒体文件以及 DVS，音频 CD，VCD，以及各种流媒体协议。  
 
-### Open Broadcaster Software(OBS)  
+- Open Broadcaster Software(OBS)  
 
  OBS在屏幕录制软件里还是挺有名的，开源、免费、操作简单，录制效果也很不错，很棒。  
 
-### Kdenlive  
+- Kdenlive  
 
  还不错的视频编辑软件，虽然功能没有 Adobe 家的强大，但对我来说已经足够了。  
 入门推荐看官方的这个：
 
-### FFmpeg  
+- FFmpeg  
 
 神器，FFmpeg 是一个多媒体编解码器库，并提供了命令行前端。许多软件都使用了 FFmpeg 来进行音频和视频的编解码，特别是像 MPlayer 这样的多媒体播放器
 常用命令：  
@@ -223,30 +188,30 @@ Manjaro i3WM 版自带文件管理器
 
 ## 图片
 
-### GIMP  
+- GIMP  
 
 GIMP 是一个免费的、分布式的图片润饰、图象制作和处理软件，内含几乎所有图象处理所需的功能，号称Linux下的PhotoShop。  
 
 ## 文本编辑器
 
-### VScode
+- VScode
 
 微软出品的开源文本编辑器，用着是真的香。
 
 ## 游戏
 
-### Minecraft  
+- Minecraft  
 
 简评我一直都在玩的游戏，详细介绍请看
 
 ## 美化
 
-### GNOME  
+- GNOME  
 
  GNOME 桌面环境是一个有吸引力且直观的的桌面，拥有大量的插件。
 (虽然我现在并不是这个)
 
-### Conky
+- Conky
 
 右上角日期中文乱码
 Manjaro-i3 在安装和安装好以后，右上角的日期 某月 星期几 都是框框乱码。解决办法如下：
@@ -261,11 +226,11 @@ Manjaro-i3 在安装和安装好以后，右上角的日期 某月 星期几 都
 来源：黑客派
 协议：CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/>
 
-### Adapta Theme  
+- Adapta Theme  
 
  一款自适应的 Gtk+ 主题，遵循 Material 设计指南。
 
-### Papirus Icon Theme  
+- Papirus Icon Theme  
 
 简评这个也是质感设计的图标包，跟adapta搭配起来还挺好看的。Linux 系统 SVG 图标主题，基于 Paper 主题并有一些额外的特性（如硬编码托盘支持，kde 颜色方案支持，libreoffice 图标主题，filezilla 主题，smplayer 主题...）以及其它的修改。这个主题适用于 GTK 以及 KDE。
 
@@ -273,13 +238,13 @@ Manjaro-i3 在安装和安装好以后，右上角的日期 某月 星期几 都
 
 命令行对Linux来说依然非常重要，虽然这些桌面端的发行版可以完全离开命令行，但是使用命令行可以大幅提高使Linux系统的效率，而且……这是一件非常有趣而且逼格很高的事。
 
-### Zsh  
+- Zsh  
 
  一款强大的命令行 shell。我在github写的文章里有过介绍。
 
 进阶推荐《Zsh 开发指南》  
 
-### Oh-my-zsh  
+- Oh-my-zsh  
 
  一个由社区驱动，优雅的 zsh 配置管理框架。
 
@@ -293,38 +258,38 @@ zsh-autosuggestions — 类似 fish 的补全
 zsh-syntax-highlighting — 命令行的语法高亮
 zsh-completions — 应该是自动补全，不过我没试出来怎么用，网上也没找到具体介绍……
 
-### Tmux  
+- Tmux  
 
  它让你在一个终端中在多个程序间方便地切换，分离他们（保持在后台运行）并另一个终端中重新连接上去。以及还有好多事情可以做。据说是神器，不过我不会用，之后学习一下。
 配置我用的是这个：  
 
-### git  
+- git  
 
  Git 是一款免费和开源的分布式版本管理系统，被设计用来快速和高效地处理从小项目到大项目的一切内容。
 
-### xmodmap
+- xmodmap
 
  xmodmap 是一个在 X 图形环境下用于修改键盘和鼠标按钮映射的工具。我习惯将大写锁定键设为Ctrl键，Ctrl键设为ESC键，ESC键设为Delete键。
 教程：  
 
-### xdotool  
+- xdotool  
 
  模拟按键的工具，可以做一些自动化，不过我还没搞好……
 
-### NeoFetch  
+- NeoFetch  
 
  快速，高度定制化的系统信息获取脚本。
 
-### The Fuck  
+- The Fuck  
 
  杰出的应用，它能纠正你的输入的错误命令。
 
 ## 其他
 
-### telegram
+- telegram
 
  可以说是在聊天体验方面做的最好一款软件。(虽然在酷安都已经是连名字都不能说的软件了……)
 
-### 输入法
+- 输入法
 
 简介：

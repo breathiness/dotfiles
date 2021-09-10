@@ -7,25 +7,9 @@
 - [浏览器介绍](#浏览器介绍)
   - [Firefox](#firefox)
   - [扩展](#扩展)
-    - [Surfingkeys](#surfingkeys)
-    - [暴力猴](#暴力猴)
-      - [Bilibili-Evolved](#bilibili-evolved)
-      - [简阅](#简阅)
 - [网页介绍](#网页介绍)
   - [搜索引擎](#搜索引擎)
-    - [AnywhereAnything](#anywhereanything)
-    - [Bing](#bing)
-    - [Magi](#magi)
-    - [CC search](#cc-search)
-    - [鸠摩搜书](#鸠摩搜书)
   - [学习](#学习)
-    - [GitHub](#github)
-    - [菜鸟教程](#菜鸟教程)
-    - [ArchWiki](#archwiki)
-    - [维基百科](#维基百科)
-    - [萌娘百科](#萌娘百科)
-    - [wikiHow](#wikihow)
-    - [THBWiki](#thbwiki)
   - [视频](#视频)
   - [音乐](#音乐)
   - [图片](#图片)
@@ -52,24 +36,24 @@
 
 ### 扩展  
 
-#### Surfingkeys  
+- Surfingkeys  
 
 Surfingkeys 和现有的一些插件一样，让你尽可能的通过键盘来使用 Chrome/Firefox 浏览器。  
 项目链接：<https://github.com/brookhong/Surfingkeys/>  
 官方介绍：<https://github.com/brookhong/Surfingkeys/blob/master/README_CN.md>  
 dotfile：<https://github.com/breathiness/dotfiles/blob/master/Web/surfingkeys/config.txt>  
 
-#### 暴力猴  
+- 暴力猴  
 
 一个开源的用户脚本管理器，支持很多浏览器  
 项目链接：<https://violentmonkey.github.io/>  
 
-##### Bilibili-Evolved
+- Bilibili-Evolved
 
 强大的哔哩哔哩增强脚本  
 项目链接：<https://github.com/the1812/Bilibili-Evolved>  
 
-##### 简阅
+- 简阅
 
 阅读增强及稍后读插件，Firefox 版本插件下线，只能安装离线版  
 项目链接：<http://ksria.com/simpread/>  
@@ -78,64 +62,64 @@ dotfile：<https://github.com/breathiness/dotfiles/blob/master/Web/surfingkeys/c
 
 ### 搜索引擎  
 
-#### AnywhereAnything  
+- AnywhereAnything  
 
 目前暂未找到替代品的主页，输入关键词，然后点网站，即在那个网站里搜索。  
 项目链接：<http://lackar.com/aa/>  
 
-#### Bing  
+- Bing  
 
 微软出品的通用搜索引擎。搜索结果质量略弱于谷歌和百度。但无需翻墙、没有广告。  
 项目链接：<https://cn.bing.com/>  
 
-#### Magi  
+- Magi  
 
 Magi 是由 Peak Labs 研发的基于机器学习的信息抽取和检索系统。本质上并非搜索引擎，所以搜索结果弱于大部分正规搜索引擎。  
 项目链接：<https://magi.com/>  
 
-#### CC search  
+- CC search  
 
 搜索 CC 协议发布的内容专用的引擎。  
 项目链接：<https://search.creativecommons.org/>  
 
-#### 鸠摩搜书  
+- 鸠摩搜书  
 
 搜索网络书籍的专用引擎。  
 项目链接：<https://www.jiumodiary.com/>  
 
 ### 学习  
 
-#### GitHub
+- GitHub
 
 全球最大的社交编程及代码托管网站  
 项目链接：<https://github.com/>  
 
-#### 菜鸟教程  
+- 菜鸟教程  
 
 IT 编程类的自学网站  
 项目链接：<https://www.runoob.com/>  
 
-#### ArchWiki  
+- ArchWiki  
 
 Linux 社区里最好的中文 Wiki。除了 ArchLinux 外也介绍了很多 Linux 软件  
 项目链接：[https://wiki.archlinux.org/title/Main_page](https://wiki.archlinux.org/title/Main_page_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))
 
-#### 维基百科  
+- 维基百科  
 
 维基百科  
 项目链接：<https://zh.wikipedia.org/>  
 
-#### 萌娘百科  
+- 萌娘百科  
 
 早期为娘化角色百科，现在已经发展成比较齐全的二次元相关百科。  
 项目链接：<https://www.moegirl.org>  
 
-#### wikiHow  
+- wikiHow  
 
 学习如何解决大大小小的问题。好用的生活百科。  
 项目链接：<https://zh.wikihow.com/>  
 
-#### THBWiki  
+- THBWiki  
 
 以专业性为目标的东方 Project 维基百科。  
 项目链接：<https://thwiki.cc/>  
