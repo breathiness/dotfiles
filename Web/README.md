@@ -109,6 +109,11 @@ Linux 社区里最好的中文 Wiki。除了 ArchLinux 外也介绍了很多 Lin
 维基百科  
 项目链接：<https://zh.wikipedia.org/>  
 
+- static.wiki
+
+仅使用静态文件的只读维基百科。  
+项目链接：<http://static.wiki/zh/>  
+
 - 萌娘百科  
 
 早期为娘化角色百科，现在已经发展成比较齐全的二次元相关百科。  
@@ -125,6 +130,11 @@ Linux 社区里最好的中文 Wiki。除了 ArchLinux 外也介绍了很多 Lin
 项目链接：<https://thwiki.cc/>  
 
 ### 视频
+
+- BiliBili
+
+国内比较优秀的弹幕视频播放平台。  
+项目链接：<https://www.bilibili.com/>  
 
 ### 音乐
 
