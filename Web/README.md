@@ -48,10 +48,11 @@ dotfile：<https://github.com/breathiness/dotfiles/blob/master/Web/surfingkeys/c
 一个开源的用户脚本管理器，支持很多浏览器  
 项目链接：<https://violentmonkey.github.io/>  
 
-- Bilibili-Evolved
-
-强大的哔哩哔哩增强脚本  
-项目链接：<https://github.com/the1812/Bilibili-Evolved>  
+>脚本：
+>
+> - Bilibili-Evolved
+>强大的哔哩哔哩增强脚本  
+>项目链接：<https://github.com/the1812/Bilibili-Evolved>  
 
 - 简阅
 
@@ -135,6 +136,11 @@ Linux 社区里最好的中文 Wiki。除了 ArchLinux 外也介绍了很多 Lin
 
 国内比较优秀的弹幕视频播放平台。  
 项目链接：<https://www.bilibili.com/>  
+
+- Youtube
+
+国外最大的视频平台。  
+项目链接：<https://www.youtube.com/>  
 
 ### 音乐
 
