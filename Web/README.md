@@ -100,6 +100,16 @@ Magi 是由 Peak Labs 研发的基于机器学习的信息抽取和检索系统�
 IT 编程类的自学网站  
 项目链接：<https://www.runoob.com/>  
 
+- Stack Overflow
+
+程序相关的IT技术问答网站。  
+项目链接：<https://stackoverflow.com/>
+
+- 飓风社
+
+飓风影音的 Notion 知识库。音视频相关知识。
+项目链接：[飓风社](https://charm-heather-cb6.notion.site/80a9cbbd17c54718b6c7ed9a3cf2218e?v=e38fc0a7e3d442458770820994fe7bf7)
+
 - ArchWiki  
 
 Linux 社区里最好的中文 Wiki。除了 ArchLinux 外也介绍了很多 Linux 软件  
@@ -129,6 +139,11 @@ Linux 社区里最好的中文 Wiki。除了 ArchLinux 外也介绍了很多 Lin
 
 以专业性为目标的东方 Project 维基百科。  
 项目链接：<https://thwiki.cc/>  
+
+- Material Design 指南中文版
+
+Material Design 的文档，个人认为是谷歌设计的巅峰。
+项目链接：<https://www.mdui.org/design/>
 
 ### 视频
 
