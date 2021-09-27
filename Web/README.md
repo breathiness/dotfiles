@@ -159,6 +159,21 @@ Material Design 的文档，个人认为是谷歌设计的巅峰。
 
 ### 音乐
 
+- moises
+
+人工智能音轨分离；  
+项目链接：<https://moises.ai/zh-cn/>
+
+- MikuTap
+
+通过点击让 Miku 唱歌，非常解压；  
+项目链接：<https://aidn.jp/mikutap/>
+
+- XAudioPro
+
+在线编辑音乐，支持一些简单的处理；  
+项目链接：<https://www.xaudiopro.com/edit/>
+
 ### 图片
 
 ### 阅读
