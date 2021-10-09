@@ -73,6 +73,11 @@ dotfile：<https://github.com/breathiness/dotfiles/blob/master/Web/surfingkeys/c
 微软出品的通用搜索引擎。搜索结果质量略弱于谷歌和百度。但无需翻墙、没有广告。  
 项目链接：<https://cn.bing.com/>  
 
+- whoogle  
+
+开源的通用搜索引擎，获取 Google 搜索结果，但没有任何广告、javascript、AMP 链接、cookie 或 IP 地址跟踪。  
+项目链接：<https://github.com/benbusby/whoogle-search>
+
 - Magi  
 
 Magi 是由 Peak Labs 研发的基于机器学习的信息抽取和检索系统。本质上并非搜索引擎，所以搜索结果弱于大部分正规搜索引擎。  
@@ -157,6 +162,11 @@ Material Design 的文档，个人认为是谷歌设计的巅峰。
 国外最大的视频平台。  
 项目链接：<https://www.youtube.com/>  
 
+- YuC's AnimeList  
+
+新番列表  
+项目链接：<https://yuc.wiki/>
+
 ### 音乐
 
 - moises
@@ -175,6 +185,16 @@ Material Design 的文档，个人认为是谷歌设计的巅峰。
 项目链接：<https://www.xaudiopro.com/edit/>
 
 ### 图片
+
+- unsplash
+
+可免费商用的图片网站；  
+项目链接：<https://unsplash.com/>
+
+- Pixiv
+
+一个以插图、漫画和小说、艺术为中心的社交网络服务里的虚拟社区网站。  
+项目链接：<https://www.pixiv.net/>
 
 ### 阅读
 
