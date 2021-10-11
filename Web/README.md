@@ -196,7 +196,47 @@ Material Design 的文档，个人认为是谷歌设计的巅峰。
 一个以插图、漫画和小说、艺术为中心的社交网络服务里的虚拟社区网站。  
 项目链接：<https://www.pixiv.net/>
 
+- 日本传统色
+
+取色网站，包含大量日本传统颜色。类似的还有中国传统色网站。  
+项目链接：<https://nipponcolors.com/>
+
+- SM.MS
+
+图床网站，可以免费使用。但是免费节点有部分网络环境无法打开。  
+项目链接：<https://sm.ms/>
+
+- Codeimg
+
+创建代码图片  
+项目链接：<https://codeimg.io/>
+
+- かわいいフリー素材集 いらすとや
+
+网络著名的免费素材，图片可以覆盖很多内容。有些不太严肃的PPT可以使用。  
+项目链接：<https://www.irasutoya.com>
+
 ### 阅读
+
+- Inoreader
+
+优秀的 RSS 阅读器，支持添加源规则。  
+项目链接：<https://www.innoreader.com/>
+
+- Pocket
+
+稍后阅读。  
+项目链接：<https://getpocket.com/>
+
+- 中国国家图书馆
+
+中国国家图书馆•中国国家数字图书馆。  
+项目链接：<http://www.nlc.cn/>
+
+- 刺猬猫
+
+二次元小说网站。  
+项目链接：<https://www.ciweimao.com/>
 
 ### 博客
 
