@@ -184,6 +184,11 @@ Material Design 的文档，个人认为是谷歌设计的巅峰。
 在线编辑音乐，支持一些简单的处理；  
 项目链接：<https://www.xaudiopro.com/edit/>
 
+- X Studio · 主播
+
+AI主播，助力音频制作；  
+项目链接：<https://cfm.xiaoice.com/>
+
 ### 图片
 
 - unsplash
@@ -240,7 +245,47 @@ Material Design 的文档，个人认为是谷歌设计的巅峰。
 
 ### 博客
 
+- breathiness
+
+我的博客  
+项目链接：<https://breathiness.github.io/>
+
+- 啦哆咪 用Linux做音乐
+
+Linux 音乐制作相关  
+项目链接：<https://lado.me/>
+
+- 稚晖的个人站
+
+强，无敌  
+项目链接：<http://www.pengzhihui.xyz/>
+
 ### 工具
+
+- QRBTF 参数化二维码生成器
+
+二维码制作网站，有多种样式可用；  
+项目链接：<https://qrbtf.com/?from=thosefree.com>
+
+- Snapdrop
+
+文件传输  
+项目链接：<https://snapdrop.net/>
+
+- SubPlayer
+
+在线字幕制作  
+项目链接：<https://subplayer.js.org/>
+
+- Photopea
+
+在线图片编辑  
+项目链接：<https://www.photopea.com/>
+
+- 爱资料在线工具
+
+在线工具集合  
+项目链接：<https://www.toolnb.com/>
 
 ### 工作
 
