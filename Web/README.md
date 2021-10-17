@@ -289,7 +289,37 @@ Linux 音乐制作相关
 
 ### 工作
 
+- 一本日记
+
+一本日记的网页版，可以在线记录日记  
+项目链接：<http://1diary.me>
+
+- 国家标准全文公开
+
+国标查询，工作必备  
+项目链接：<http://www.gb688.cn/bzgk/gb/index>
+
 ### 社交
+
+- 钉钉
+
+工作用通讯软件  
+项目链接：<https://im.dingtalk.com/>
+
+- Minecraft中文论坛
+
+我的世界中文论坛  
+项目链接：<https://www.mcbbs.net/>
+
+- V2EX
+
+创意工作者们的社区  
+项目链接：<https://www.v2ex.com/>
+
+- 微博
+
+国内版的推特，关注了几个画师  
+项目链接：<https://weibo.com/>
 
 ### 网络
 
