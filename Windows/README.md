@@ -43,13 +43,9 @@
 
 比较简洁明了的介绍一下软件的功能。各平台的软件都有介绍，更新频率还挺高的，介绍软件的质量也不错。  
 
-- 异次元软件世界  
-
-特点和上面两个差不多，不过介绍的更加详细，我也挺喜欢的。  
-
 - Windows 绝赞应用
 
-收集了很多优秀的 Windows 应用，并且很好的分类了。目前仍然在不断更新中，非常推荐。  
+收集了很多优秀的 Windows 应用，并且很好的分类了。目前仍然在不断更新中。  
 
 ## 下载方式  
 
@@ -84,6 +80,11 @@
 
 开发相关网络服务的加速工具。  
 项目链接：<https://github.com/docmirror/dev-sidecar>
+
+- TrafficMonitor
+
+用于Windows平台的网速监控悬浮窗软件  
+项目链接：<https://github.com/zhongyang219/TrafficMonitor>
 
 ## 下载工具  
 
@@ -195,7 +196,7 @@ REAPER是一个完整的计算机数字音频制作应用程序，提供完整�
 打开小文件使用，VScode 冷启动过慢。  
 项目链接：<https://notepad-plus-plus.org/>  
 
-- ditto  
+- Ditto  
 
 Ditto 是一款开源、免费、强大的剪贴板增强工具。可以把复制过的所有内容保存起来  
 项目链接：<https://ditto-cp.sourceforge.io/>  
@@ -212,7 +213,7 @@ Ditto 是一款开源、免费、强大的剪贴板增强工具。可以把复�
 自由开源的免费绘画软件，支持概念草图、插画、漫画、动画、接景和 3D 贴图  
 项目链接：<https://krita.org/zh/>  
 
-- snipaste  
+- Snipaste  
 
 简单强大的截图工具，并可以将截图贴到桌面；  
 项目链接：<https://zh.snipaste.com/>  
@@ -255,6 +256,11 @@ QTTabbar 新增标签式（Tab）的浏览与快速预览方式。以及许多�
 
 一个制作可启动 U 盘的开源工具。无需反复地格式化 U 盘，你只需要把 ISO/WIM/IMG/VHD(x)/EFI 等类型的文件拷贝到 U 盘里面就可以启动。  
 项目链接：<https://www.ventoy.net/cn/index.html>  
+
+- Windows Terminal
+
+微软出品的终端模拟器  
+项目链接：<https://github.com/microsoft/terminal>
 
 ## 游戏  
 
