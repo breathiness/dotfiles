@@ -287,6 +287,11 @@ Linux 音乐制作相关
 在线工具集合  
 项目链接：<https://www.toolnb.com/>
 
+- Mycroft Project
+
+设置 FireFox 浏览器的搜索引擎  
+项目链接：<https://mycroftproject.com/>
+
 ### 工作
 
 - 一本日记
@@ -323,8 +328,36 @@ Linux 音乐制作相关
 
 ### 网络
 
+- K2P
+
+斐讯路由器的管理页面  
+项目链接：<http://p.to>
+
 ### 下载
+
+- 清华大学开源软件镜像站
+
+最常使用的镜像站，很多源都附有替换方式  
+项目链接：<https://mirrors.tuna.tsinghua.edu.cn/>
+
+- Ninite
+
+快速安装和更新所有程序  
+项目链接：<https://ninite.com/>
 
 ### 游戏
 
-### 资源
+- Steam
+
+目前最完善的游戏平台  
+项目链接：<https://store.steampowered.com/>
+
+- GOG
+
+专注于老游戏的平台，没有数字版权管理  
+项目链接：<https://www.gog.com/>
+
+- Minecraft
+
+我的世界  
+项目链接：<https://www.minecraft.net/>
