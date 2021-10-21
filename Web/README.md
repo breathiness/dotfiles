@@ -292,6 +292,11 @@ Linux 音乐制作相关
 设置 FireFox 浏览器的搜索引擎  
 项目链接：<https://mycroftproject.com/>
 
+- PearOCR文字识别
+
+可离线使用的 OCR  
+项目链接：<https://pearocr.com/>
+
 ### 工作
 
 - 一本日记

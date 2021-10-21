@@ -44,10 +44,13 @@ Linux 是我在生活中主要使用的系统。选择 Linux 作为主系统的�
 我一直使用的发行版，[Archlinux](https://www.archlinux.org/download/) 是一个简洁、现代、实用、以用户为中心的发行版。Arch采用滚动升级模式，尽全力提供最新的稳定版软件。初始安装的 Archlinux 只是一个基本系统，随后用户可以根据自己的喜好安装需要的软件并配置成符合自己理想的系统。Archlinux 的安装虽然略显困难，不过只要按照 [Arch wiki](https://wiki.archlinux.org/index.php/Installation_guide_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)) 的超详细的安装指南就能一步步地装好了。  
 选择 Archlinux 的原因主要还是为了 Arch 用户软件仓库（Arch User Repository，AUR）；因为 AUR 的存在，Archlinux 里安装软件的效率是非常高的。比如说我想安装 Minecraft 的启动器 [HMCL](https://github.com/huanghongxun/hmcl) 。在其他的系统中需要打开官方网站下载安装包、配置 JRE 等；而在 Archlinux 中只需要一句命令 `yay -S hmcl` 等安装完成后就能自动帮你把所有的配置完成。使用体验非常爽！  
 
-## Manjaro  
+## Archcraft  
 
-如果嫌弃 Archlinux 麻烦的安装步骤。还可以使用 Archlinux 的下游发行版 [Manjaro](https://manjaro.org/) 。安装很无脑，基本可以做到开箱即用。并且有多种桌面环境可供选择。我试用过 I3WM 版本的 Manjaro ，默认的配置就非常的不错。我现在使用的配置文件就有一部分是抄的 Manjaro 。  
-Manjaro 还有个转 Archlinux 的骚操作。亲测没什么问题，可以正常使用。  
+如果嫌弃 Archlinux 麻烦的安装步骤。还可以使用 Archlinux 的下游发行版 Archcraft。安装很无脑，基本可以做到开箱即用。  
+安装方便。颜值优秀，在美化方面做了非常多的工作。可以免去配置的功夫。基本可以做到开箱即用。相比起 Manjaro，因为直接用的 ArchLinux 仓库，应该不会出现 cn 源的神奇 BUG。  
+目前缺点是缺少中文化，并且因为字体原因中文是无法展示的。有人提过更换默认字体为 CJK 字体的 Issue，但是作者拒绝了。所以还是需要后续再配置。  
+
+项目链接：<https://github.com/archcraft-os/archcraft>
 
 ## Deepin
 
@@ -248,20 +251,17 @@ Manjaro-i3 在安装和安装好以后，右上角的日期 某月 星期几 都
 
  一个由社区驱动，优雅的 zsh 配置管理框架。
 
-我使用时主题是 gentoo，之前用的是 agnoster
-扩展：
-git — 简化 git 命令
-bebian — 简化 apt 指令
-autojump — 快速跳转目录
-sudo — 双击 ESC 键为当前命令
-zsh-autosuggestions — 类似 fish 的补全
-zsh-syntax-highlighting — 命令行的语法高亮
+我使用时主题是 gentoo  
+扩展：  
+git — 简化 git 命令  
+sudo — 双击 ESC 键为当前命令  
+zsh-autosuggestions — 类似 fish 的补全  
+zsh-syntax-highlighting — 命令行的语法高亮  
 zsh-completions — 应该是自动补全，不过我没试出来怎么用，网上也没找到具体介绍……
 
 - Tmux  
 
- 它让你在一个终端中在多个程序间方便地切换，分离他们（保持在后台运行）并另一个终端中重新连接上去。以及还有好多事情可以做。据说是神器，不过我不会用，之后学习一下。
-配置我用的是这个：  
+它让你在一个终端中在多个程序间方便地切换，分离他们（保持在后台运行）并另一个终端中重新连接上去。  
 
 - git  
 
@@ -269,12 +269,11 @@ zsh-completions — 应该是自动补全，不过我没试出来怎么用，网
 
 - xmodmap
 
- xmodmap 是一个在 X 图形环境下用于修改键盘和鼠标按钮映射的工具。我习惯将大写锁定键设为Ctrl键，Ctrl键设为ESC键，ESC键设为Delete键。
-教程：  
+ xmodmap 是一个在 X 图形环境下用于修改键盘和鼠标按钮映射的工具。我习惯将大写锁定键设为Ctrl键，Ctrl键设为ESC键，ESC键设为Delete键。 
 
 - xdotool  
 
- 模拟按键的工具，可以做一些自动化，不过我还没搞好……
+ 模拟按键的工具，可以做一些自动化。
 
 - NeoFetch  
 
@@ -288,8 +287,6 @@ zsh-completions — 应该是自动补全，不过我没试出来怎么用，网
 
 - telegram
 
- 可以说是在聊天体验方面做的最好一款软件。(虽然在酷安都已经是连名字都不能说的软件了……)
+ 可以说是在聊天体验方面做的最好一款软件。
 
 - 输入法
-
-简介：
