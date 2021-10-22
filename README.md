@@ -2,8 +2,8 @@
 
 ![GitHub](https://img.shields.io/github/license/breathiness/dotfiles?style=flat-square&color=blue) ![GitHub last commit](https://img.shields.io/github/last-commit/breathiness/dotfiles?color=blue&style=flat-square) ![GitHub stars](https://img.shields.io/github/stars/breathiness/dotfiles?style=flat-square)
 
-对我正在使用的软件进行简单的介绍。
-以及几台设备的配置文件。主要用于多台设备之间进行方便快捷的同步。
+对我正在使用的软件进行简单的介绍。  
+以及几台设备的配置文件。主要用于多台设备之间进行方便快捷的同步。  
 
 ## [Web](https://github.com/breathiness/dotfiles/tree/master/Web)
 
@@ -19,8 +19,8 @@
 
 ## [Windows](https://github.com/breathiness/dotfiles/tree/master/Windows)  
 
-设备：MagicBook（宿舍）
-用途：写文章、部分 Office 文件处理等轻量工作
+设备：MagicBook（宿舍）  
+用途：写文章、部分 Office 文件处理等轻量工作  
 
 设备：工作电脑（内网）  
 用途：使用 Creo 进行机械设计工作  
