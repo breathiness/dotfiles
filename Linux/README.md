@@ -90,7 +90,7 @@ Linux 是我在生活中主要使用的系统。选择 Linux 作为主系统的�
 
 - Motrix
 
-Motrix 是一款封装了 Aria2 作为内核，并为其套上图形界面的开源免费下载软件。  
+Motrix 是一款封装了 Aria2 作为内核，并为其套上图形界面的开源免费下载软件。（AUR 的 motrix-git 包有　BUG）  
 项目链接：<https://motrix.app>  
 
 - 坚果云
@@ -139,43 +139,50 @@ Motrix 是一款封装了 Aria2 作为内核，并为其套上图形界面的开
 
 - PCManFM
 
-Manjaro i3WM 版自带文件管理器  
+发行版自带文件管理器，支持多标签  
 
 ## 安全
 
 ## 音乐
+
+- MPD
+
+极简的音乐播放器，可以与多种软件有很好的联动。  
+项目链接：<https://www.musicpd.org/>
 
 - Netease Music  
 
 网易与 deepin 团队合作开发的Linux版，使用体验和其他平台的没什么差距。  
 目前使用 VScode 插件代替。  
 
-- vocal  
+- REAPER
 
- Linux 的播客软件，颜值很棒，操作简单。虽然我不常用电脑听播客，不过偶尔用用也不错。  
+REAPER是一个完整的计算机数字音频制作应用程序，提供完整的多轨音频和MIDI录音、编辑、处理、混音和母带制作工具集。  
+项目链接：<http://reaper.fm/>  
 
-- Audacious  
+- Synthesizer V
 
- 免费，开源，跨平台的声音录制、编辑软件。  
-
-- Let's make music  
-
- 在你的 PC 上制作音乐，创造旋律和节拍，合成，混音，编曲小样以及更多内容。  
+使用人工智能技术和素片接续相结合而成的强力歌声合成引擎  
+项目链接：<https://dreamtonics.com/synthesizerv/>
 
 ## 视频
 
 - VLC  
 
- VLC 是一个免费且开源的跨平台媒体播放器以及框架，可以播放大多数格式的多媒体文件以及 DVS，音频 CD，VCD，以及各种流媒体协议。  
+VLC 是一个免费且开源的跨平台媒体播放器以及框架，可以播放大多数格式的多媒体文件以及 DVS，音频 CD，VCD，以及各种流媒体协议。  
 
 - Open Broadcaster Software(OBS)  
 
- OBS在屏幕录制软件里还是挺有名的，开源、免费、操作简单，录制效果也很不错，很棒。  
+OBS在屏幕录制软件里还是挺有名的，开源、免费、操作简单，录制效果也很不错，很棒。  
 
 - Kdenlive  
 
- 还不错的视频编辑软件，虽然功能没有 Adobe 家的强大，但对我来说已经足够了。  
-入门推荐看官方的这个：
+还不错的视频编辑软件，虽然功能没有 Adobe 家的强大，但对我来说已经足够了。  
+
+- 达芬奇  
+
+跨平台视频编辑软件，支持特效、调色、音频编辑  
+项目链接：<http://www.blackmagicdesign.com/cn/products/davinciresolve/>  
 
 - FFmpeg  
 
@@ -195,11 +202,19 @@ Manjaro i3WM 版自带文件管理器
 
 GIMP 是一个免费的、分布式的图片润饰、图象制作和处理软件，内含几乎所有图象处理所需的功能，号称Linux下的PhotoShop。  
 
+- Krita
+
+偏向绘画而不是图片处理方面。对数位板兼容更好。  
+
 ## 文本编辑器
 
 - VScode
 
 微软出品的开源文本编辑器，用着是真的香。
+
+- nvim
+
+vim 的升级版，比起其他编辑器打开速度更快。  
 
 ## 游戏
 
@@ -211,27 +226,16 @@ GIMP 是一个免费的、分布式的图片润饰、图象制作和处理软件
 
 - GNOME  
 
- GNOME 桌面环境是一个有吸引力且直观的的桌面，拥有大量的插件。
+GNOME 桌面环境是一个有吸引力且直观的的桌面，拥有大量的插件。
 (虽然我现在并不是这个)
 
-- Conky
+- I3WM
 
-右上角日期中文乱码
-Manjaro-i3 在安装和安装好以后，右上角的日期 某月 星期几 都是框框乱码。解决办法如下：
-
-1. 找到 /usr/share/conky/conky_maia
-2. 使用 vim 命令 ：%s/Bitstream Vera/anti/ 统一修改把 Bitstream Vera 修改为 anti
-
-然后就方块就变成中文了。
-
-作者：lizhongyue248
-链接：<https://hacpai.com/article/1552717494529>
-来源：黑客派
-协议：CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/>
+比起桌面环境我更喜欢使用窗口管理器。  
 
 - Adapta Theme  
 
- 一款自适应的 Gtk+ 主题，遵循 Material 设计指南。
+一款自适应的 Gtk+ 主题，遵循 Material 设计指南。
 
 - Papirus Icon Theme  
 
@@ -265,28 +269,26 @@ zsh-completions — 应该是自动补全，不过我没试出来怎么用，网
 
 - git  
 
- Git 是一款免费和开源的分布式版本管理系统，被设计用来快速和高效地处理从小项目到大项目的一切内容。
-
-- xmodmap
-
- xmodmap 是一个在 X 图形环境下用于修改键盘和鼠标按钮映射的工具。我习惯将大写锁定键设为Ctrl键，Ctrl键设为ESC键，ESC键设为Delete键。 
+Git 是一款免费和开源的分布式版本管理系统，被设计用来快速和高效地处理从小项目到大项目的一切内容。
 
 - xdotool  
 
- 模拟按键的工具，可以做一些自动化。
+模拟按键的工具，可以做一些自动化。
 
 - NeoFetch  
 
- 快速，高度定制化的系统信息获取脚本。
+快速，高度定制化的系统信息获取脚本。
 
 - The Fuck  
 
- 杰出的应用，它能纠正你的输入的错误命令。
+杰出的应用，它能纠正你的输入的错误命令。
 
-## 其他
+## 社交
 
 - telegram
 
- 可以说是在聊天体验方面做的最好一款软件。
+可以说是在聊天体验方面做的最好一款软件。
 
-- 输入法
+- 钉钉
+
+工作用联系工具，在国内算是比较好的。  
