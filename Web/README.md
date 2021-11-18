@@ -286,6 +286,17 @@ Linux 音乐制作相关
 文件传输  
 项目链接：<https://snapdrop.net/>
 
+- Piping Server
+
+支持 curl 的轻量级开源文件传输工具。
+
+使用这个工具可以方便地传输文件、或者文本。而无需在同一个局域网内。解决了我的一大痒点。
+
+有了这个就能通过一个链接快速传输文件了。只需要选择文件或文本，输入你想要的链接名。然后在接收端输入链接就能下载了。
+
+项目链接（UI）：<https://piping-ui.org/>
+GitHub 链接：<https://github.com/nwtgck/piping-server>
+
 - SubPlayer
 
 在线字幕制作  

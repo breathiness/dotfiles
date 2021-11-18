@@ -18,6 +18,7 @@
 - [文件管理](#文件管理)
 - [工具](#工具)
 - [游戏](#游戏)
+- [工作](#工作)
 
 <!-- /code_chunk_output -->
 
@@ -324,8 +325,34 @@ Traffic Monitor 是一款用于Windows平台的网速监控悬浮窗软件，可
 
 项目链接：<https://www.minecraft.net/zh-hans>  
 
+- GDLauncher  
+
+一个简单但功能强大的Minecraft自定义启动器，非常注重用户体验。  
+
+简洁易用的 UI  
+可快速搜索安装及管理整合包、MOD  
+可快速安装 Java  
+
+项目链接：<https://gdevs.io/>
+
 - ArchWSL  
 
 Windows Subsystem for Linux（简称 WSL）是一个在 Windows 10 上能够运行原生 Linux 二进制可执行文件（ELF 格式）的兼容层。  
 微软官方提供的几个发行版我都不是很喜欢用。于是我在 GitHub 上找了一个 ArchLinux 的 WSL。  
 项目链接：<https://github.com/yuk7/ArchWSL>  
+
+## 工作
+
+- 浩辰 CAD  
+
+优点：
+1.各操作与 AutoCAD 相同无转换成本
+2.设置像素级复制 AutoCAD 设置方便
+3.打开大文件速度较快
+4.支持 Linux
+5.有网页版
+
+缺点：
+1.Linux 仅有 CAD 没有3D设计软件
+
+项目链接：<https://www.gstarcad.com/>
