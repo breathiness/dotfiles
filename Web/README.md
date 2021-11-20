@@ -229,6 +229,15 @@ AI主播，助力音频制作；
 网络著名的免费素材，图片可以覆盖很多内容。有些不太严肃的PPT可以使用。  
 项目链接：<https://www.irasutoya.com>
 
+- Scan the World - 免费开源雕塑资源库
+
+这里收录了超多世界著名雕塑，大卫、米洛的维纳斯、哀悼基督……全部都是用3D扫描技术建的模型。
+
+而最可怕的是，可以免费下载！
+
+项目链接：<https://www.myminifactory.com/scantheworld>
+介绍文章：<https://weibo.com/5722964389/L11WGCKp0>
+
 ### 阅读
 
 - Inoreader
