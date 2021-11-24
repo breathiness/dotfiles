@@ -177,6 +177,13 @@ REAPER是一个完整的计算机数字音频制作应用程序，提供完整�
 使用人工智能技术和素片接续相结合而成的强力歌声合成引擎  
 项目链接：<https://dreamtonics.com/synthesizerv/>
 
+- OpenUtau - 开源的UTAU继任者
+
+OpenUtau 是一个为 UTAU 社区提供的具有现代用户体验的开源编辑环境。  
+UTAU 的上次更新已经是 2013/9/5，整体UI设计都还留在 XP 时代。OpenUtau 是复刻了 UTAU 的功能，添加了 Win、Linux、Mac 系统的支持。并且将代码进行了开源。
+
+项目链接：<https://github.com/stakira/OpenUtau>
+
 ## 视频  
 
 - FFmpeg  
