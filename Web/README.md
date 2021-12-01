@@ -48,11 +48,20 @@ dotfile：<https://github.com/breathiness/dotfiles/blob/master/Web/surfingkeys/c
 一个开源的用户脚本管理器，支持很多浏览器  
 项目链接：<https://violentmonkey.github.io/>  
 
->脚本：
->
-> - Bilibili-Evolved
->强大的哔哩哔哩增强脚本  
->项目链接：<https://github.com/the1812/Bilibili-Evolved>  
+脚本：
+
+- Bilibili-Evolved
+强大的哔哩哔哩增强脚本  
+项目链接：<https://github.com/the1812/Bilibili-Evolved>  
+
+- 片假名终结者 - 在网页中的日语外来语上方标注英文原词
+
+日语的片假名是非常神奇的东西。日语中有很多的英语外来词，然后日语就会用罗马音的发音来读英语。
+于是在看一些片假名单词时需要先翻译成英文，然后再翻译到中文。非常头疼。
+
+这个脚本可以在片假名上标注对应的英文小字。方便阅读。
+
+项目链接：<https://greasyfork.org/zh-CN/scripts/33268-katakana-terminator>
 
 - 简阅
 
