@@ -6,7 +6,7 @@
 - [零、前言](#零-前言)
 - [一、发行版](#一-发行版)
   - [Archlinux](#archlinux)
-  - [Manjaro](#manjaro)
+  - [Archcraft](#archcraft)
   - [Deepin](#deepin)
 - [二、Linux 网站介绍](#二-linux-网站介绍)
   - [Linux中国（软件板块）](#linux中国软件板块)
@@ -23,9 +23,10 @@
   - [图片](#图片)
   - [文本编辑器](#文本编辑器)
   - [游戏](#游戏)
+  - [工作](#工作)
   - [美化](#美化)
   - [命令行](#命令行)
-  - [其他](#其他)
+  - [社交](#社交)
 
 <!-- /code_chunk_output -->
 
@@ -159,6 +160,17 @@ Motrix 是一款封装了 Aria2 作为内核，并为其套上图形界面的开
 
 REAPER是一个完整的计算机数字音频制作应用程序，提供完整的多轨音频和MIDI录音、编辑、处理、混音和母带制作工具集。  
 项目链接：<http://reaper.fm/>  
+
+- Ultraschall - 播客制作工具
+
+REAPER 的博客制作特化插件，将 REAPER 变成播客制作神器。
+不过没有相关资料，软件只有德语和英文。相关的介绍也大多是德语的。完全看不懂，需要再摸一下。
+目前中文资料只找到少数派的两篇文章，但是也介绍的不是很详细。
+
+项目链接：<https://ultraschall.fm/>
+少数派文章：
+<https://sspai.com/post/57334>
+<https://sspai.com/post/59437>
 
 - Synthesizer V
 
