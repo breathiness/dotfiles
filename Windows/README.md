@@ -182,6 +182,17 @@ foobox 是一个基于 CUI 的 foobar2000 界面配置，适合大界面使用�
 REAPER是一个完整的计算机数字音频制作应用程序，提供完整的多轨音频和MIDI录音、编辑、处理、混音和母带制作工具集。  
 项目链接：<http://reaper.fm/>  
 
+- Ultraschall - 播客制作工具
+
+REAPER 的博客制作特化插件，将 REAPER 变成播客制作神器。
+不过没有相关资料，软件只有德语和英文。相关的介绍也大多是德语的。完全看不懂，需要再摸一下。
+目前中文资料只找到少数派的两篇文章，但是也介绍的不是很详细。
+
+项目链接：<https://ultraschall.fm/>
+少数派文章：
+<https://sspai.com/post/57334>
+<https://sspai.com/post/59437>
+
 - Synthesizer V
 
 使用人工智能技术和素片接续相结合而成的强力歌声合成引擎  
