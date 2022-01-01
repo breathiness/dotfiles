@@ -193,6 +193,11 @@ REAPER 的博客制作特化插件，将 REAPER 变成播客制作神器。
 <https://sspai.com/post/57334>
 <https://sspai.com/post/59437>
 
+- LABS — Free Virtual Instruments
+
+非常优秀的免费音色库，出了很多特殊的声音。而且各音色的封面设计非常好看，UI也很现代。
+项目链接：<https://labs.spitfireaudio.com>
+
 - Synthesizer V
 
 使用人工智能技术和素片接续相结合而成的强力歌声合成引擎  
