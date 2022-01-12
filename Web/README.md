@@ -68,6 +68,11 @@ dotfile：<https://github.com/breathiness/dotfiles/blob/master/Web/surfingkeys/c
 阅读增强及稍后读插件，Firefox 版本插件下线，只能安装离线版  
 项目链接：<http://ksria.com/simpread/>  
 
+- 哔哩哔哩图床
+
+哔哩哔哩图床插件，转短链接，速度快,多种图片压缩格式选择，自动读取Bilibili的Cookie，不再需要手动输入。 基于vitesse-webext 重构  
+项目链接：<https://github.com/xlzy520/bilibili-img-uploader>
+
 ## 网页介绍  
 
 ### 搜索引擎  
