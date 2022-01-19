@@ -357,6 +357,11 @@ Espanso 是一个使用 Rust 实现的跨平台的 Text Expander，可以在任�
 介绍文章：<https://toutiao.io/k/09y7c8d>  
 官网：<https://espanso.org/>  
 
+- RustDesk
+
+开源远程桌面软件，可以在公司控制家里的电脑。
+项目地址：<https://rustdesk.com>
+
 ## 游戏  
 
 - Steam  

@@ -25,6 +25,11 @@
 打开速度和功能性都很不错的计算器软件，多行计算非常好用。可以快速调用之前的计算结果。  
 项目链接：<https://play.google.com/store/apps/details?id=com.burton999.notecal.pro>
 
+- RustDesk
+
+开源远程桌面软件，可以在公司控制家里的电脑。
+项目地址：<https://rustdesk.com>
+
 ### 音乐
 
 - 网易云音乐

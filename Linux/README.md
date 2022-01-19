@@ -40,12 +40,12 @@ Linux 是我在生活中主要使用的系统。选择 Linux 作为主系统的�
 
 首先要讲到的就是 Linux 的发行版。与 Windows 不同 Linux 拥有大量风格迥异的发行版，可以根据自己的喜好进行选择。下面简单介绍几个。  
 
-## Archlinux
+- Archlinux
 
 我一直使用的发行版，[Archlinux](https://www.archlinux.org/download/) 是一个简洁、现代、实用、以用户为中心的发行版。Arch采用滚动升级模式，尽全力提供最新的稳定版软件。初始安装的 Archlinux 只是一个基本系统，随后用户可以根据自己的喜好安装需要的软件并配置成符合自己理想的系统。Archlinux 的安装虽然略显困难，不过只要按照 [Arch wiki](https://wiki.archlinux.org/index.php/Installation_guide_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)) 的超详细的安装指南就能一步步地装好了。  
 选择 Archlinux 的原因主要还是为了 Arch 用户软件仓库（Arch User Repository，AUR）；因为 AUR 的存在，Archlinux 里安装软件的效率是非常高的。比如说我想安装 Minecraft 的启动器 [HMCL](https://github.com/huanghongxun/hmcl) 。在其他的系统中需要打开官方网站下载安装包、配置 JRE 等；而在 Archlinux 中只需要一句命令 `yay -S hmcl` 等安装完成后就能自动帮你把所有的配置完成。使用体验非常爽！  
 
-## Archcraft  
+- Archcraft  
 
 如果嫌弃 Archlinux 麻烦的安装步骤。还可以使用 Archlinux 的下游发行版 Archcraft。安装很无脑，基本可以做到开箱即用。  
 安装方便。颜值优秀，在美化方面做了非常多的工作。可以免去配置的功夫。基本可以做到开箱即用。相比起 Manjaro，因为直接用的 ArchLinux 仓库，应该不会出现 cn 源的神奇 BUG。  
@@ -53,7 +53,7 @@ Linux 是我在生活中主要使用的系统。选择 Linux 作为主系统的�
 
 项目链接：<https://github.com/archcraft-os/archcraft>
 
-## Deepin
+- Deepin
 
 [Deepin](https://www.deepin.org/download/) 是一个国产、相当傻瓜化、基于 Debian 的发行版。安装非常非常简单，将官方的 ISO 镜像文件解压后会有制作安装U盘的和直接硬盘安装的软件，直接无脑下一步就行。  
 自带有一个能免费使用的 CrossOver。之前有段时间我的 Arch 被我玩坏了，而手上又刚好没有u盘，所以就试着换成了可以硬盘安装的 deepin。使用了一段时间感觉还挺不错的。非常的简单。  
@@ -63,17 +63,17 @@ Linux 是我在生活中主要使用的系统。选择 Linux 作为主系统的�
 
 接下来介绍一下我找软件的地方。Linux因为用户少，所以并不像win和Mac有各种博客，这方面还是挺糟糕的。  
 
-## Linux中国（软件板块）
+- Linux中国（软件板块）
 
 [https://linux.cn/share/](https://linux.cn/share/)  
  比较简洁地介绍软件的功能。其他的 Linux 新闻也挺不错的。
 
-## Arch wiki（应用列表）
+- Arch wiki（应用列表）
 
 [https://wiki.archlinux.org/](https://wiki.archlinux.org/index.php/List_of_applications_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))  
  列举了大量Linux应用，并且可以快速到相应的Arch wiki条目，Arch wiki的介绍通常非常的详细。  
 
-## 超赞的 Linux 软件  
+- 超赞的 Linux 软件  
 
 [https://alim0x.gitbooks.io/awesome-linux-software-zh_cn/content/](https://alim0x.gitbooks.io/awesome-linux-software-zh_cn/content/)
  类似之前介绍过的 Windows 绝赞应用。  
@@ -115,7 +115,7 @@ Motrix 是一款封装了 Aria2 作为内核，并为其套上图形界面的开
 
 同一内网中各设备间文件、信息传输工具  
 
-## 效率
+## 工具
 
 - UTools  
 
@@ -128,7 +128,12 @@ Motrix 是一款封装了 Aria2 作为内核，并为其套上图形界面的开
 
 - AngrySearch  
 
-类似Everything的Linux 文件搜索，结果输入即得。  
+类似 Everything 的 Linux 文件搜索，结果输入即得。  
+
+- RustDesk
+
+开源远程桌面软件，可以在公司控制家里的电脑。
+项目地址：<https://rustdesk.com>
 
 ## 文件管理
 
