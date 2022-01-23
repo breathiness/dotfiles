@@ -124,10 +124,11 @@ Motrix 是一款封装了 Aria2 作为内核，并为其套上图形界面的开
 
 类似 Everything 的 Linux 文件搜索，结果输入即得。  
 
-- RustDesk
+- RealVNC
 
+RustDesk 不知道为什么在 Linux 上无法打开。于是换成了 RealVNC。
 开源远程桌面软件，可以在公司控制家里的电脑。
-项目地址：<https://rustdesk.com>
+项目地址：<https://www.realvnc.com/>
 
 ## 文件管理
 
