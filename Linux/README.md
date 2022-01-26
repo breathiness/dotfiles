@@ -151,10 +151,13 @@ RustDesk 不知道为什么在 Linux 上无法打开。于是换成了 RealVNC�
 极简的音乐播放器，可以与多种软件有很好的联动。  
 项目链接：<https://www.musicpd.org/>
 
-- Netease Music  
+- YesPlayMusic - 高颜值的第三方网易云播放器
 
-网易与 deepin 团队合作开发的Linux版，使用体验和其他平台的没什么差距。  
-目前使用 VScode 插件代替。  
+之前我一直使用的是 VScode 的网易云插件来听歌。虽然这样用起来还挺有趣的。但是每次听歌都要开个文本编辑器还是比较奇怪的。
+所以我还是再下载了一个单独的客户端 YesPlayMusic 。拥有多平台支持，还有网页版可以使用。并且支持 UnblockNeteaseMusic，自动使用各类音源替换变灰歌曲链接。
+当然最关键的是颜值很不错，虽然并不是我最爱的质感设计（仅一代）。但是苹果风也还不错。
+
+项目链接：<https://github.com/qier222/YesPlayMusic>
 
 - REAPER
 
