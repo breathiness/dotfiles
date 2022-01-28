@@ -313,10 +313,10 @@ Linux 音乐制作相关
 二维码制作网站，有多种样式可用；  
 项目链接：<https://qrbtf.com/?from=thosefree.com>
 
-- Snapdrop
+- AirPortal 空投快传
 
-文件传输  
-项目链接：<https://snapdrop.net/>
+临时网盘，仅需要浏览器就可以快速在两个设备之间传输文件、文本。相比起其他服务增加了 Wifi 快传功能，可以在无网络情况下在内网传输（不过这个功能需要安装客户端）  
+项目链接：<https://airportal.cn/>
 
 - Piping Server
 
