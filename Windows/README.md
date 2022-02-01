@@ -370,10 +370,6 @@ RustDesk 不知道为什么在 Linux 上无法打开。于是换成了 RealVNC�
 游戏商城，支持下载、安装、同步你的游戏。除了游戏也有部分软件。  
 项目链接：<https://store.steampowered.com/>  
 
-- minecraft  
-
-项目链接：<https://www.minecraft.net/zh-hans>  
-
 - GDLauncher  
 
 一个简单但功能强大的Minecraft自定义启动器，非常注重用户体验。  
@@ -383,6 +379,19 @@ RustDesk 不知道为什么在 Linux 上无法打开。于是换成了 RealVNC�
 可快速安装 Java  
 
 项目链接：<https://gdevs.io/>
+
+- MeoAssistantArknights
+
+一款明日方舟游戏小助手，简称 MAA  
+基于图像识别技术，一键完成全部日常任务。
+
+    刷理智，掉落识别及上传 企鹅物流  
+    智能基建换班，自动计算干员效率，单设施内最优解  
+    自动公招，可选使用加急许可，一次全部刷完  
+    访问好友、收取信用及购物、领取日常奖励等。一键全日常自动长草！  
+    全自动肉鸽刷源石锭及收藏品  
+
+项目链接：<https://github.com/MistEO/MeoAssistantArknights>
 
 - ArchWSL  
 
