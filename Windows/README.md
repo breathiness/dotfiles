@@ -214,6 +214,12 @@ UTAU 的上次更新已经是 2013/9/5，整体UI设计都还留在 XP 时代。
 
 项目链接：<https://github.com/stakira/OpenUtau>
 
+- SpleeterGUI - 音乐源分离桌面应用程序
+
+Spleeter 是将音乐的人声与伴奏分离的软件，网络上很多分离功能网站都是用的这个。除了分离人声和伴奏，也可以分离出更多轨道。但是多轨的效果会差一些。
+
+项目链接：<https://makenweb.com/SpleeterGUI>
+
 ## 视频  
 
 - FFmpeg  

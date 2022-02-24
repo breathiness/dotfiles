@@ -195,11 +195,6 @@ Lo-fi 音乐，不同于 Hi-Fi 音乐，Lo-fi 音乐中人声和乐器的声音�
 
 项目链接：<https://www.lofi.cafe/>
 
-- moises
-
-人工智能音轨分离；  
-项目链接：<https://moises.ai/zh-cn/>
-
 - MikuTap
 
 通过点击让 Miku 唱歌，非常解压；  
