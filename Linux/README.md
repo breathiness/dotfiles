@@ -330,19 +330,22 @@ GNOME 桌面环境是一个有吸引力且直观的的桌面，拥有大量的�
 
 - Oh-my-zsh  
 
- 一个由社区驱动，优雅的 zsh 配置管理框架。
+一个由社区驱动，优雅的 zsh 配置管理框架。
 
 我使用时主题是 gentoo  
-扩展：  
-git — 简化 git 命令  
+扩展：
 sudo — 双击 ESC 键为当前命令  
 zsh-autosuggestions — 类似 fish 的补全  
-zsh-syntax-highlighting — 命令行的语法高亮  
-zsh-completions — 应该是自动补全，不过我没试出来怎么用，网上也没找到具体介绍……
 
-- Tmux  
+- Tmux - 独立，漂亮和多功能.tmux.conf配置文件
 
 它让你在一个终端中在多个程序间方便地切换，分离他们（保持在后台运行）并另一个终端中重新连接上去。  
+
+- oh my tmux - 独立，漂亮和多功能.tmux.conf配置文件
+
+类似 oh my zsh 的配置，可以快速地美化 tmux。但是其实不能开箱即用，还需要调整一下配置文件。
+
+项目链接：<https://github.com/gpakosz/.tmux>
 
 - git  
 
