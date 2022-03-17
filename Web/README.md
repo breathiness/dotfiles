@@ -168,6 +168,12 @@ Linux 社区里最好的中文 Wiki。除了 ArchLinux 外也介绍了很多 Lin
 Material Design 的文档，个人认为是谷歌设计的巅峰。
 项目链接：<https://www.mdui.org/design/>
 
+- ‍宽菜谱 - 王刚美食官方网站
+
+王刚的菜谱网站，有视频及图文版本的教程，菜式也比较丰富。就是UI比较简陋，但是内容都很不错
+
+项目链接：<http://kuancaipu.com/>
+
 ### 视频
 
 - BiliBili
