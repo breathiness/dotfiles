@@ -48,6 +48,16 @@
 
 应该是目前 Android 平台最强大的本地播放器，一款播放器应该有的功能 MX Player 都能给你
 
+### 图片
+
+- ‍PikaPika（开源版）
+
+(R18) 美观易用且无广告的二次元客户端，同时支 MacOS，Windows，Android，iOS，并上传了APK和IPA。  
+这个软件的作者还制作了其他类似的客户端。  
+大家低调使用。  
+
+项目链接：<https://github.com/niuhuan/pikapika> 
+
 ### 管理
 
 - MiXplorer文件管理器
