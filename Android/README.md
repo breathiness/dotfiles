@@ -56,7 +56,7 @@
 这个软件的作者还制作了其他类似的客户端。  
 大家低调使用。  
 
-项目链接：<https://github.com/niuhuan/pikapika> 
+项目链接：<https://github.com/niuhuan/pikapika>
 
 ### 管理
 
