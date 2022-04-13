@@ -174,6 +174,17 @@ Material Design 的文档，个人认为是谷歌设计的巅峰。
 
 项目链接：<http://kuancaipu.com/>
 
+- ​Live2D Cubism Editor嵌入工作测试等的示例数据集
+
+这是可用于Cubism Editor的学习、Cubism SDK的嵌入工作测试等的示例数据集。
+
+在此刊登的所有示例数据都可在最新的Cubism Editor上使用。请注意，使用旧版本的产品时，由于不支持添加功能等，可能工作不正常。
+
+另外，如果用FREE版的Cubism Editor打开面向PRO版的文件，由于FREE版的功能限制，不能进行保存和各种文件写出。
+由于能够自由查看模型数据的结构，或者能够进行局部编辑，请用于学习的参考。
+
+项目链接：<https://www.live2d.com/zh-CHS/download/sample-data/>
+
 ### 视频
 
 - BiliBili
