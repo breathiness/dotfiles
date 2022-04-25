@@ -445,4 +445,4 @@ Windows Subsystem for Linux（简称 WSL）是一个在 Windows 10 上能够运�
 
 俐方體11號是基於 M⁺ gothic 12r 衍生的開源繁體中文點陣字型，可用於像素風格的遊戲以及美術當中。
 
-项目链接：https://github.com/ACh-K/Cubic-11
+项目链接：<https://github.com/ACh-K/Cubic-11>

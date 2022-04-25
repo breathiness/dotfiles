@@ -62,6 +62,12 @@ dotfile：<https://github.com/breathiness/dotfiles/blob/master/Web/surfingkeys/c
 
 项目链接：<https://greasyfork.org/zh-CN/scripts/33268-katakana-terminator>
 
+- MukeTool 超星网课助手
+
+超星的自动刷题工具。可以自动查找正确答案，并且填写。可以剩省下不少时间。不过有时候题库的内容有可能会对不上，就需要人工填写部分答案了。
+
+项目链接：<http://muketool.com>
+
 - 简阅
 
 阅读增强及稍后读插件，Firefox 版本插件下线，只能安装离线版  
