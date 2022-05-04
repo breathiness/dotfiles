@@ -132,6 +132,13 @@ Deskreen 是一款桌面应用程序，可以通过 WiFi 将任何带有网络�
 
 项目链接：<https://deskreen.com/lang-zh_CN>
 
+- ​Warp - 基于 Rust 的终端
+Warp 是一款速度极快的基于 Rust 的GPU加速终端，旨在让您和您的团队更加高效。
+这款终端的功能非常有用且好玩。并且在其他的终端上还没有见过这么完善的。而且因为是基于 Rust 所以速度应该还不错。
+具体的演示效果可以去项目主页查看。
+目前缺点是仅支持 MacOS。当然这个项目还是有计划支持 Linux，Windows和Web（WASM）的，等待并心怀希望吧。
+项目链接：<https://www.warp.dev/>
+
 ## 文件管理
 
 - Ranger  
