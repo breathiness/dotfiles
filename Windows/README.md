@@ -241,6 +241,11 @@ FFMPEG GUI版本
 一款自由开源的视频编辑工具。  
 项目链接：<https://kdenlive.org/zh/>  
 
+- LosslessCut - 无损视频/音频编辑的瑞士军刀
+
+又是一个 FFMPEG 的套壳，主打的是一个无损编辑。在面对一些仅需要简单剪辑的工作时，编辑和导出速度是相当快的。其他的剪辑软件基本都会要进行重新压制，速度会慢很多。而且还会有一些画质的降低。
+项目链接：<https://github.com/mifi/lossless-cut>
+
 - OBS Studio  
 
 屏幕录制或生成直播媒体流  
