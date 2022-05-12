@@ -448,6 +448,12 @@ CDNDrive 可以白嫖叔叔的服务器，用着还挺不错的。缺点是没�
 
 项目链接：<https://acgn.flygon.net/>
 
+- 好软分享 - 常见软件的下载分享
+
+主要是 Android 和 Windows 平台的软件，收集的大多是各种修改版。省去了在各平台到处搜索的麻烦。避免了下载到乱七八糟东西的风险。而且有蓝奏云链接，下载速度还不错。
+
+项目链接：<https://github.com/yoyodadada/haoruanfenxiang>
+
 ### 游戏
 
 - Steam
