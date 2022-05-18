@@ -168,6 +168,12 @@ Warp 是一款速度极快的基于 Rust 的GPU加速终端，旨在让您和您
 
 项目链接：<https://github.com/qier222/YesPlayMusic>
 
+- musicn - 🎵 一个下载高品质音乐的命令行工具
+
+命令行的音乐下载工具，来源是咪咕音乐。不过如果使用第三方的网易云的话这个其实不太必要。
+
+项目链接：<https://github.com/zonemeen/musicn>
+
 - REAPER
 
 REAPER是一个完整的计算机数字音频制作应用程序，提供完整的多轨音频和MIDI录音、编辑、处理、混音和母带制作工具集。  
