@@ -49,11 +49,11 @@ dotfile：<https://github.com/breathiness/dotfiles/blob/master/Web/surfingkeys/c
 
 脚本：
 
-- Bilibili-Evolved
+    - Bilibili-Evolved
 强大的哔哩哔哩增强脚本  
 项目链接：<https://github.com/the1812/Bilibili-Evolved>  
 
-- 片假名终结者 - 在网页中的日语外来语上方标注英文原词
+    - 片假名终结者 - 在网页中的日语外来语上方标注英文原词
 
 日语的片假名是非常神奇的东西。日语中有很多的英语外来词，然后日语就会用罗马音的发音来读英语。
 于是在看一些片假名单词时需要先翻译成英文，然后再翻译到中文。非常头疼。
@@ -62,7 +62,7 @@ dotfile：<https://github.com/breathiness/dotfiles/blob/master/Web/surfingkeys/c
 
 项目链接：<https://greasyfork.org/zh-CN/scripts/33268-katakana-terminator>
 
-- MukeTool 超星网课助手
+    - MukeTool 超星网课助手
 
 超星的自动刷题工具。可以自动查找正确答案，并且填写。可以剩省下不少时间。不过有时候题库的内容有可能会对不上，就需要人工填写部分答案了。
 
@@ -77,6 +77,16 @@ dotfile：<https://github.com/breathiness/dotfiles/blob/master/Web/surfingkeys/c
 
 哔哩哔哩图床插件，转短链接，速度快,多种图片压缩格式选择，自动读取Bilibili的Cookie，不再需要手动输入。 基于vitesse-webext 重构  
 项目链接：<https://github.com/xlzy520/bilibili-img-uploader>
+
+- 翻译网页 - Firefox 最强的网页翻译方式
+
+在 Chromium 系的浏览器大多会用集成的网页翻译功能。只要点击地址栏里的翻译按钮，就能将整个网页翻译成中文。
+而一直以来，Firefox 我用着最难受的一点。就是他没有一个比较好的网页翻译工具。之前有用过有道的网页翻译插件。但是翻译的质量相对弱一些。后来也试用过彩云小译的油猴插件，但是最后还是因为翻译速度和一些BUG放弃了。
+在很长的一段时间我都是用沙拉查词来划词翻译。直到在插件商店闲逛时发现，有道划词翻译这个插件居然在简介推荐其他的翻译软件。也是挺神奇的。于是我就发现了这款目前下载量第二高的翻译网页插件。
+这个插件在安装后，会在地址栏出现一个按钮。点击后就可以进行翻译。操作跟 Edge 的翻译操作类似。而且体验上会好不少。
+比如说翻译的速度是几个插件里最快的，基本一点就翻译完了。在 Edge 里有个比较不爽的点是他一遇到英文网站就会弹出翻译提醒。这款插件就比较安静，可以等到你需要的时候再进行翻译。
+
+项目链接：<https://addons.mozilla.org/zh-CN/firefox/addon/traduzir-paginas-web/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search>
 
 ## 网页介绍  
 
