@@ -243,6 +243,13 @@ Lo-fi 音乐，不同于 Hi-Fi 音乐，Lo-fi 音乐中人声和乐器的声音�
 AI主播，助力音频制作；  
 项目链接：<https://cfm.xiaoice.com/>
 
+- 微软文本转语音
+
+微软的文本转语言的服务是有提供一个DEMO页面，但是只能试听。前几天在小众软件看到，可以通过安装油猴脚本来增加下载按钮。点击即可下载音频，非常方便。
+
+演示链接：<https://azure.microsoft.com/zh-cn/services/cognitive-services/text-to-speech/#overview>
+插件链接：<https://greasyfork.org/zh-CN/scripts/444347-azure-speech-download>
+
 ### 图片
 
 - unsplash
