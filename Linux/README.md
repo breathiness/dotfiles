@@ -245,6 +245,18 @@ Natron 是一个免费的开源（GPLv2许可证）视频合成器，其功能�
 
     ffmpeg -ss 01:08:43 -to 01:12:00 -accurate_seek -i input.mp4 -codec copy -avoid_negative_ts 1 output.mp4
 
+- biliup-app - b站全平台投稿客户端，支持多p投稿，稿件编辑
+
+众所周知，阿B取消了分P。要想上传带分P的视频只能通过投稿工具。然而尴尬的是，客户端是不支持 Linux 。那应该如何解决这个问题呢？
+最近我在 AUR 闲逛的时候发现了这个项目。BiliUP -app 一个bilibili第三方投稿客户端，可以支持Windows，Linux，macOS。
+
+支持多p上传，支持线路切换、并发数控制，上海腾讯云可使用内网线路上传免流+大幅提速。
+支持稿件编辑追加多p，可编辑网页端不能编辑的"是否转载"、"投稿分区"等。
+低电磁力等级也可上传大于16G视频，最大32G。
+支持多种登录方式，账号密码，短信，扫码，浏览器登录。
+
+项目链接：<https://github.com/ForgQi/biliup-app>
+
 ## 图片
 
 - GIMP  
