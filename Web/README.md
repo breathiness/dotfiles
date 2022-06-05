@@ -201,6 +201,16 @@ Material Design 的文档，个人认为是谷歌设计的巅峰。
 
 项目链接：<https://www.live2d.com/zh-CHS/download/sample-data/>
 
+- Learning Music/Learning Synths - 非常优秀的音乐/合成器学习网页
+
+这两个网站都是由 Ableton 推出的音乐学习网站。支持了中文在内的多种语言。
+区别于常见的文本、视频教程。这两个网站充分利用了网页所拥有的“可交互”特性，让读者可以实际上手。能充分体验到自己参与的感觉。能够清楚的知道我做了什么，可以导致什么结果。
+这两个教程都是将音乐的各部分拆解，分别讲解各部分的效果。一步步地从原理开始，到实际应用。来让读者学习如何制作一首音乐。整体体验下来非常有玩解密游戏的意思。
+非常推荐对音乐有兴趣的读者尝试玩一下。
+
+音乐学习：<https://learningmusic.ableton.com/zh-Hans/>
+合成器学习：<https://learningsynths.ableton.com/zh-Hans/>
+
 ### 视频
 
 - BiliBili
