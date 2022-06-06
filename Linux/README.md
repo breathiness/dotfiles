@@ -363,6 +363,14 @@ GNOME 桌面环境是一个有吸引力且直观的的桌面，拥有大量的�
 
 项目链接:<https://github.com/TakWolf/ark-pixel-font>
 
+- Activate-linux - 移植到 Linux 的“激活 Windows”水印
+
+日常在 AUR 闲逛时发现的一个搞怪项目。能够实现的功能只是为屏幕添加一个 Windows 系统的未激活水印。
+支持 Linux、MacOS，支持中文，可自定义字体、颜色等。可以说功能意外的齐全。甚至还让人有种“可能开发出实用用法”的错觉。
+这种无厘头项目虽然没用，但是我意外的挺喜欢的。已经给电脑用上了，孩子很喜欢。
+
+项目链接：<https://github.com/MrGlockenspiel/activate-linux>
+
 ## 命令行
 
 命令行对Linux来说依然非常重要，虽然这些桌面端的发行版可以完全离开命令行，但是使用命令行可以大幅提高使Linux系统的效率，而且……这是一件非常有趣而且逼格很高的事。
