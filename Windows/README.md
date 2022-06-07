@@ -180,8 +180,7 @@ foobox 是一个基于 CUI 的 foobar2000 界面配置，适合大界面使用�
 REAPER是一个完整的计算机数字音频制作应用程序，提供完整的多轨音频和MIDI录音、编辑、处理、混音和母带制作工具集。  
 项目链接：<http://reaper.fm/>  
 
-- Ultraschall - 播客制作工具
-
+    - Ultraschall - 播客制作工具
 REAPER 的博客制作特化插件，将 REAPER 变成播客制作神器。
 不过没有相关资料，软件只有德语和英文。相关的介绍也大多是德语的。完全看不懂，需要再摸一下。
 目前中文资料只找到少数派的两篇文章，但是也介绍的不是很详细。
@@ -190,6 +189,11 @@ REAPER 的博客制作特化插件，将 REAPER 变成播客制作神器。
 少数派文章：
 <https://sspai.com/post/57334>
 <https://sspai.com/post/59437>
+
+    - iZotope 免费插件
+iZotope 出品的三款免费 VST 插件，有 Vinyl - 模拟低保真声音的音频插件、Ozone Imager - 立体声像处理插件，还有 Vocal Doubler - 人声doubling效果的效果器插件。
+
+项目链接：<https://www.izotope.com/en/products/free-audio-plug-ins.html>
 
 - LABS — Free Virtual Instruments
 

@@ -54,7 +54,6 @@ dotfile：<https://github.com/breathiness/dotfiles/blob/master/Web/surfingkeys/c
 项目链接：<https://github.com/the1812/Bilibili-Evolved>  
 
     - 片假名终结者 - 在网页中的日语外来语上方标注英文原词
-
 日语的片假名是非常神奇的东西。日语中有很多的英语外来词，然后日语就会用罗马音的发音来读英语。
 于是在看一些片假名单词时需要先翻译成英文，然后再翻译到中文。非常头疼。
 
@@ -63,13 +62,11 @@ dotfile：<https://github.com/breathiness/dotfiles/blob/master/Web/surfingkeys/c
 项目链接：<https://greasyfork.org/zh-CN/scripts/33268-katakana-terminator>
 
     - MukeTool 超星网课助手
-
 超星的自动刷题工具。可以自动查找正确答案，并且填写。可以剩省下不少时间。不过有时候题库的内容有可能会对不上，就需要人工填写部分答案了。
 
 项目链接：<http://muketool.com>
 
-- 简阅
-
+    - 简阅
 阅读增强及稍后读插件，Firefox 版本插件下线，只能安装离线版  
 项目链接：<http://ksria.com/simpread/>  
 
