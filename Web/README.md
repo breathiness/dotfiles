@@ -257,6 +257,14 @@ AI主播，助力音频制作；
 演示链接：<https://azure.microsoft.com/zh-cn/services/cognitive-services/text-to-speech/#overview>
 插件链接：<https://greasyfork.org/zh-CN/scripts/444347-azure-speech-download>
 
+- Museum of Endangered Sounds - 濒危声音博物馆
+
+在上周的科技爱好者周刊里看到的一个很有意思的网站。里面记录了很多老旧设备的声音。
+比如打字机的击键声、点阵式打印机的打印声、Windows 95 的开机声。
+在理论上你可以免费使用里面的声音。但是要注意的是，他使用的 CC BY-NC-SA 3.0 协议是限制范围非常大的，需要署名、非商业性使用以及使用相同方式共享。
+
+项目链接：<http://savethesounds.info/>
+
 ### 图片
 
 - unsplash
