@@ -476,3 +476,11 @@ Windows Subsystem for Linux（简称 WSL）是一个在 Windows 10 上能够运�
 项目链接：https://github.com/welai/glow-sans 
 #font 
 
+- Occlusion Grotesque - 树皮字体 
+
+今天在科技爱好者周刊看到的一个很有意思的项目。
+五年前，一个丹麦艺术家将字体刻在一棵树上，想看看随着树木的成长，字体会变成什么样，也就是大自然会怎样呈现字体。 
+他发现，这些字母主要是横向成长，变得更宽更粗，高度反而变化不大。这说明，树木成形后，树干高度就基本不再变化了，开始不断长粗。 
+
+项目链接：https://bjoernkarmann.dk/occlusion-grotesque 
+#font
