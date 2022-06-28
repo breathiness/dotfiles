@@ -208,6 +208,13 @@ Material Design 的文档，个人认为是谷歌设计的巅峰。
 音乐学习：<https://learningmusic.ableton.com/zh-Hans/>
 合成器学习：<https://learningsynths.ableton.com/zh-Hans/>
 
+​自由派音乐理论 - 乐理学习网站
+
+乐理学习的一个网站，个人粗略看了一下感觉还不错。内容都是理论方面的，跟之前介绍的网站相比没什么实操的部分。
+这个项目有个麻烦的地方在于有部分内容是引用的油管和 spotify 的内容。需要科学。
+
+项目链接：<https://music-theory.aizcutei.com/>
+
 ### 视频
 
 - BiliBili
@@ -306,7 +313,7 @@ AI主播，助力音频制作；
 
 收集了很多常用的表情包。可以直接打包下载。还有一个小程序，可以在微信内使用。
 
-项目链接：https://github.com/zhaoolee/ChineseBQB
+项目链接：<https://github.com/zhaoolee/ChineseBQB>
 
 - Scan the World - 免费开源雕塑资源库
 
