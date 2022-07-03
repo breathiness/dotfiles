@@ -48,6 +48,16 @@
 
 ## IT配件
 
+- ​LMN-3  - 开源版「OP-1」项目 口袋音乐制造机
+
+最近在midifan看到的一个项目，类似非常出名的 OP-1 便携式多媒体合成器。但是众所周知，OP-1的淘宝代购价格已经到了9500，可以说是非常离谱了。而这个项目就是很好的DIY替代。
+
+“有些人可能会将 LMN 3 视为 Teenage Engineering OP-1 的 DIY 替代品，因为它被设计为用于音乐制作的便携式多合一解决方案。
+
+LMN-3 DAW 基于开源音频引擎 Tracktion Engine，提供录制、编辑和混音等标准功能。LMN-3 DAW  基于 Raspberry PI 硬件平台，只需要树莓派即可打造属于自己的「OP-1」。项目组不仅提供了固件系统和软件，还有帮助制作外观的各类 CAD 文件。动手能力强的朋友可以试试看。 ”——midifan
+
+项目链接：<https://github.com/FundamentalFrequency>
+
 ## 衣物
 
 - 纯棉纯色上衣
