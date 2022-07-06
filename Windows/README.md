@@ -218,6 +218,13 @@ Spleeter 是将音乐的人声与伴奏分离的软件，网络上很多分离�
 
 项目链接：<https://makenweb.com/SpleeterGUI>
 
+- ‍FamiStudio - 8-bit 音乐制作软件
+
+支持 Windows、MacOS、Linux、Android 的 8-bit 音乐制作软件 。具体使用方式这个视频介绍的挺详细的。挺推荐观看的。
+
+视频链接：<https://www.bilibili.com/video/BV1aU4y117f6>
+项目链接：<https://famistudio.org/>
+
 ## 视频  
 
 - FFmpeg  
@@ -302,7 +309,7 @@ Ditto 是一款开源、免费、强大的剪贴板增强工具。可以把复�
 Lorien是一款无限画布绘图/笔记应用程序，专注于性能、小存储文件和简单性。它不是基于像Krita、Gimp或Photoshop这样的位图图像；而是将笔划保存为点的集合，并在运行时进行渲染（有点像SVG）。它的主要设计目的是用作数字笔记本和头脑风暴工具。虽然它完全可以用来制作小草图和图表，但它并不意味着取代传统的对位图图像进行操作的艺术程序。它完全是在Godot游戏引擎中编写的。
 我非常喜欢的点是他是直接单文件运行。并且速度是真的超级快。在你需要随手记录一些什么的时候不用等软件打开。
 
-项目链接：https://github.com/mbrlabs/Lorien 
+项目链接：<https://github.com/mbrlabs/Lorien>
 
 ## 文件管理
 
@@ -472,7 +479,7 @@ Windows Subsystem for Linux（简称 WSL）是一个在 Windows 10 上能够运�
 
 项目链接：<https://github.com/ACh-K/Cubic-11>
 
-- 未来荧黑 - 基于思源黑体改造，拥有粗度和宽度系列，更加简明现代的超大字体家族。 
+- 未来荧黑 - 基于思源黑体改造，拥有粗度和宽度系列，更加简明现代的超大字体家族。
 
 未来荧黑是一个基于思源黑体、Fira Sans 和 Raleway 的开源字体项目，支持简体中文、繁体中文与日文；思源黑体的 7 字重被扩展为 9 字重，并提供了宽度系列，全家族共 44 款字体。
 
@@ -480,14 +487,12 @@ Windows Subsystem for Linux（简称 WSL）是一个在 Windows 10 上能够运�
 
 未来荧黑的实现介于参数化与轮廓滤镜，使用了图像处理算法对字形建模。字体的制作并没有借助字体设计软件，而是用一个 Web 实现的可视化调参工具来确定字体参数。
 
-项目链接：https://github.com/welai/glow-sans 
-#font 
+项目链接：<https://github.com/welai/glow-sans>
 
-- Occlusion Grotesque - 树皮字体 
+- Occlusion Grotesque - 树皮字体
 
 今天在科技爱好者周刊看到的一个很有意思的项目。
-五年前，一个丹麦艺术家将字体刻在一棵树上，想看看随着树木的成长，字体会变成什么样，也就是大自然会怎样呈现字体。 
-他发现，这些字母主要是横向成长，变得更宽更粗，高度反而变化不大。这说明，树木成形后，树干高度就基本不再变化了，开始不断长粗。 
+五年前，一个丹麦艺术家将字体刻在一棵树上，想看看随着树木的成长，字体会变成什么样，也就是大自然会怎样呈现字体。
+他发现，这些字母主要是横向成长，变得更宽更粗，高度反而变化不大。这说明，树木成形后，树干高度就基本不再变化了，开始不断长粗。
 
-项目链接：https://bjoernkarmann.dk/occlusion-grotesque 
-#font
+项目链接：<https://bjoernkarmann.dk/occlusion-grotesque>

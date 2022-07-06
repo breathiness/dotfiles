@@ -210,7 +210,14 @@ UTAU 的上次更新已经是 2013/9/5，整体UI设计都还留在 XP 时代。
 粗略看了一下UI确实还挺好看的，很好地弥补了 Linux 平台插件的缺少。我之前一直全用的 REAPER 自带插件。（理论上可以用Wine兼容Windows的插件，但我个人不太喜欢）
 不过这个插件真的没有任何中文介绍。只能看油管的生肉+AI字幕瞎猜了。
 
-项目链接：https://lsp-plug.in/
+项目链接：<https://lsp-plug.in/>
+
+- ‍FamiStudio - 8-bit 音乐制作软件
+
+支持 Windows、MacOS、Linux、Android 的 8-bit 音乐制作软件 。具体使用方式这个视频介绍的挺详细的。挺推荐观看的。
+
+视频链接：<https://www.bilibili.com/video/BV1aU4y117f6>
+项目链接：<https://famistudio.org/>
 
 ## 视频
 
@@ -276,7 +283,7 @@ GIMP 是一个免费的、分布式的图片润饰、图象制作和处理软件
 Lorien是一款无限画布绘图/笔记应用程序，专注于性能、小存储文件和简单性。它不是基于像Krita、Gimp或Photoshop这样的位图图像；而是将笔划保存为点的集合，并在运行时进行渲染（有点像SVG）。它的主要设计目的是用作数字笔记本和头脑风暴工具。虽然它完全可以用来制作小草图和图表，但它并不意味着取代传统的对位图图像进行操作的艺术程序。它完全是在Godot游戏引擎中编写的。
 我非常喜欢的点是他是直接单文件运行。并且速度是真的超级快。在你需要随手记录一些什么的时候不用等软件打开。
 
-项目链接：https://github.com/mbrlabs/Lorien 
+项目链接：<https://github.com/mbrlabs/Lorien>
 
 ## 文本编辑器
 
