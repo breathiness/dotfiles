@@ -291,6 +291,14 @@ Lorien是一款无限画布绘图/笔记应用程序，专注于性能、小存�
 
 微软出品的开源文本编辑器，用着是真的香。
 
+- Markmap - 将 Markdown 目录转换为思维导图的插件
+
+可即时生成直观可视化的思维导图。思维导图可以放大缩小，全屏显示。或者直接下载svg图片格式，或者HTML网页。
+有 VScode 还有 VIM/NeoVIM 插件可以选择。
+
+项目链接：<https://github.com/gera2ld/markmap>
+VScode 链接：<https://marketplace.visualstudio.com/items?itemName=gera2ld.markmap-vscode>
+
 - nvim
 
 vim 的升级版，比起其他编辑器打开速度更快。  
