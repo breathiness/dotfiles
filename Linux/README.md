@@ -238,12 +238,6 @@ OBS在屏幕录制软件里还是挺有名的，开源、免费、操作简单�
 跨平台视频编辑软件，支持特效、调色、音频编辑  
 项目链接：<http://www.blackmagicdesign.com/cn/products/davinciresolve/>  
 
-- Natron
-
-Natron 是一个免费的开源（GPLv2许可证）视频合成器，其功能类似于 Adobe After Effects、Foundry 的 Nuke 或 Blackmagic Fusion。它是可移植的、跨平台的（GNU/Linux、macOS和Microsoft Windows）。
-
-项目链接：<https://github.com/NatronGitHub/Natron>
-
 - FFmpeg  
 
 神器，FFmpeg 是一个多媒体编解码器库，并提供了命令行前端。许多软件都使用了 FFmpeg 来进行音频和视频的编解码，特别是像 MPlayer 这样的多媒体播放器
@@ -334,11 +328,6 @@ vim 的升级版，比起其他编辑器打开速度更快。
 项目链接：<https://www.gstarcad.com/>
 
 ## 美化
-
-- GNOME  
-
-GNOME 桌面环境是一个有吸引力且直观的的桌面，拥有大量的插件。
-(虽然我现在并不是这个)
 
 - I3WM
 
