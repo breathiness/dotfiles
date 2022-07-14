@@ -279,6 +279,10 @@ Lorien是一款无限画布绘图/笔记应用程序，专注于性能、小存�
 
 项目链接：<https://github.com/mbrlabs/Lorien>
 
+- ​Curtail - Linux 的批量图片压缩工具
+
+项目链接：<https://github.com/Huluti/Curtail>
+
 ## 文本编辑器
 
 - VScode
