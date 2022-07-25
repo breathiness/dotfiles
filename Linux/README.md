@@ -315,6 +315,15 @@ VScode 链接：<https://marketplace.visualstudio.com/items?itemName=gera2ld.mar
 
 vim 的升级版，比起其他编辑器打开速度更快。  
 
+- ​Kate - KDE的具有众多功能的文本编辑器
+
+Kate 和 KDE 开发的其他软件一样支持多平台。
+Kate 的功能非常丰富，可以让你更轻松地查看和编辑所有的文本文件。Kate 可以让你同时编辑和查看多个文件，既可以在标签页中查看，也可以在分割视图中查看，并且还附带了多种插件，包括一个嵌入式终端，可以让你直接从 Kate 中启动控制台命令，强大的搜索和替换插件，以及一个预览插件，可以让你看到你的 MD、HTML 甚至 SVG 的样子。
+虽然在功能上挺强大的，但是比起 VScode 是略逊一筹。但是 Kate 的开启速度比 VScode 快不少。（不过比起 Geany 之类的轻量编辑器还是稍微慢一点）
+还有钛山老师画的吉祥物很可爱
+
+项目链接：<https://kate-editor.org/zh-cn/>
+
 ## 游戏
 
 - Minecraft  
