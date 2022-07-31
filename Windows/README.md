@@ -396,6 +396,12 @@ Deskreen 是一款桌面应用程序，可以通过 WiFi 将任何带有网络�
 
 项目链接：<https://deskreen.com/lang-zh_CN>
 
+  - - paper2gui - 让每个人都简单方便的使用前沿人工智能技术
+
+一款面向普通人的AI桌面APP工具箱，免安装即开即用，已支持18+AI模型，内容涵盖语音合成、视频补帧、视频超分、目标检测、图片风格化、OCR识别等领域。支持Windows、Mac、Linux系统，未来还将适配安卓和苹果设备，另外还有小程序。
+
+项目链接：<https://github.com/Baiyuetribe/paper2gui>
+
 ## 游戏  
 
 - Steam  

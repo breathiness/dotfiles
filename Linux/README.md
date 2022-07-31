@@ -133,6 +133,12 @@ Warp 是一款速度极快的基于 Rust 的GPU加速终端，旨在让您和您
 目前缺点是仅支持 MacOS。当然这个项目还是有计划支持 Linux，Windows和Web（WASM）的，等待并心怀希望吧。
 项目链接：<https://www.warp.dev/>
 
+- paper2gui - 让每个人都简单方便的使用前沿人工智能技术
+
+一款面向普通人的AI桌面APP工具箱，免安装即开即用，已支持18+AI模型，内容涵盖语音合成、视频补帧、视频超分、目标检测、图片风格化、OCR识别等领域。支持Windows、Mac、Linux系统，未来还将适配安卓和苹果设备，另外还有小程序。
+
+项目链接：<https://github.com/Baiyuetribe/paper2gui>
+
 ## 文件管理
 
 - Ranger  
