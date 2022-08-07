@@ -350,10 +350,12 @@ QTTabbar 新增标签式（Tab）的浏览与快速预览方式。以及许多�
 一个制作可启动 U 盘的开源工具。无需反复地格式化 U 盘，你只需要把 ISO/WIM/IMG/VHD(x)/EFI 等类型的文件拷贝到 U 盘里面就可以启动。  
 项目链接：<https://www.ventoy.net/cn/index.html>  
 
-- Windows Terminal
+- WindTerm - 专业的跨平台 SSH/Sftp/Shell/Telnet/Serial 终端
 
-微软出品的终端模拟器  
-项目链接：<https://github.com/microsoft/terminal>
+前几天看到的非常好用的终端模拟器，类似 Warp 那样，在传统终端模拟器的基础上增加了很多的实用功能。而且在速度方面也是吊打了很多常用的终端模拟器，在他的主页可以看到多张对比图。  
+这个软件在Windows下表现可以说是完美。我已经将主力换成这个了。但是很尴尬的是目前2.5.0版本在Linux的表现不佳，很多功能是缺少的。  
+介绍文章：<https://juejin.cn/post/7128223896301469727>
+项目链接：<https://github.com/kingToolbox/WindTerm>
 
 - 微软输入法
 
