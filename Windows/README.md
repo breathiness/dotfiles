@@ -218,6 +218,13 @@ Spleeter 是将音乐的人声与伴奏分离的软件，网络上很多分离�
 
 项目链接：<https://makenweb.com/SpleeterGUI>
 
+- Ultimate Vocal Remover - 使用深度神经网络的人声去除器
+
+一个强大的开源人声伴奏分离软件。最近经常有在B站刷到这个软件的介绍视频。不过我还没有时间去试用。
+本程序使用了最先进的音源分离模型，以去除音频文件中的人声。UVR 的核心开发人员训练了这个软件包中提供的所有模型（除了 Demucs 的辅助模型）。
+
+项目中文介绍链接：<https://github.com/Anjok07/ultimatevocalremovergui/blob/master/README_CN.md>
+
 - ‍FamiStudio - 8-bit 音乐制作软件
 
 支持 Windows、MacOS、Linux、Android 的 8-bit 音乐制作软件 。具体使用方式这个视频介绍的挺详细的。挺推荐观看的。
