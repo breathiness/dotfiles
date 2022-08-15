@@ -519,3 +519,14 @@ Windows Subsystem for Linux（简称 WSL）是一个在 Windows 10 上能够运�
 他发现，这些字母主要是横向成长，变得更宽更粗，高度反而变化不大。这说明，树木成形后，树干高度就基本不再变化了，开始不断长粗。
 
 项目链接：<https://bjoernkarmann.dk/occlusion-grotesque>
+
+- 辰宇落雁體 - 手写体字体
+
+辰宇落雁體採用 OFL 1.1 授權開源釋出，詳細規定可以參考 Open Font License：<http://scripts.sil.org/OFL>
+在這個授權下這代表你可以⋯⋯
+
+    自由使用 ─ 無論是印刷、影像、網路或任何媒體，歡迎你將這個字體運用於任何地方！
+    自由散佈 ─ 可以自由地與任何人分享檔案，並安裝在任何裝置！
+    自由改作 ─ 可以將辰宇落雁體改作為其他字型並同以 Open Font License 釋出！需特別注意的是，「辰宇落雁」屬於此字型的保留名稱，改作字型不能使用作為名稱。
+
+项目链接：<https://github.com/Chenyu-otf/chenyuluoyan_thin>
