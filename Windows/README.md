@@ -419,6 +419,12 @@ Deskreen 是一款桌面应用程序，可以通过 WiFi 将任何带有网络�
 
 项目链接：<https://github.com/Baiyuetribe/paper2gui>
 
+- Keyviz - 实时按键展示
+
+非常好看的实时按键显示软件，使用配置也很方便。不过可惜的是目前仅支持 Windows 系统。
+
+项目链接：<https://mularahul.github.io/keyviz/>
+
 ## 游戏  
 
 - Steam  
