@@ -338,6 +338,18 @@ AI主播，助力音频制作；
 
 项目链接：<https://count.getloli.com/>
 
+- One Last Image - 卢浮宫生成器 One Last Kiss 封面风格生成
+
+One Last Image 卢浮宫生成器 是一个 将 赛璐珞风格 动画截图 或 插画，转换成 One Last Kiss 封面风格的在线生成器。
+在转换时，可以自定义  
+  线条处理方案  
+  开关 One Last Kiss 风格（仅将图片转换为线稿）  
+  给画面暗部排铅笔调子  
+  叠加类似 One Last Kiss 光碟封面水印  
+  初回限定盘面效果选项  
+
+项目链接：<https://lab.magiconch.com/one-last-image/>
+
 ### 阅读
 
 - Inoreader
