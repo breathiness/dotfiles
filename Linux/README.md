@@ -328,6 +328,13 @@ VScode 链接：<https://marketplace.visualstudio.com/items?itemName=gera2ld.mar
 
 vim 的升级版，比起其他编辑器打开速度更快。  
 
+- Notepadqq - Linux 轻量级文本编辑器
+
+在改一些简单的文本内容时，我通常会使用轻量化的文本编辑器。在 Windows 上我使用的是 Windedit ，而在 Linux 上我试用的几个文本编辑器其实都有各种各样的问题，比如 VScode 打开速度慢、Kata 缺少一些功能、系统自带的 Geany 各方面都挺不错，但是缺少一个很关键的功能：在关闭最后一个标签时关闭软件。
+Notepadqq 可以说是完美符合我的需要。在功能上跟 Notepad++ 很像，但是增加了一些新的功能。打开速度也很不错。而且外观可以说是薄纱 Notepad++ 那 XP 年代的 UI 了。目前唯一的问题可能是插件系统还是实验性。不过现在的功能已经足够了没什么需要增加的。
+
+项目链接：<https://notepadqq.com/>
+
 - ​Kate - KDE的具有众多功能的文本编辑器
 
 Kate 和 KDE 开发的其他软件一样支持多平台。
