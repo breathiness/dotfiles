@@ -543,3 +543,9 @@ Windows Subsystem for Linux（简称 WSL）是一个在 Windows 10 上能够运�
     自由改作 ─ 可以將辰宇落雁體改作為其他字型並同以 Open Font License 釋出！需特別注意的是，「辰宇落雁」屬於此字型的保留名稱，改作字型不能使用作為名稱。
 
 项目链接：<https://github.com/Chenyu-otf/chenyuluoyan_thin>
+
+- Maple Mono - 开源圆角的等宽和控制台字体
+
+一个简单的等宽字体，效果个人感觉还挺不错的。还支持连字和花体。具体可以看官网的演示图。
+
+项目链接：<https://github.com/subframe7536/Maple-font>
