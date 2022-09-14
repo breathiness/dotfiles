@@ -33,6 +33,11 @@
 开源远程桌面软件，可以在公司控制家里的电脑。
 项目地址：<https://rustdesk.com>
 
+- Papirus 图标包 - 支持 Linux 和 Android 的质感设计图标包
+Papirus 图标包是我非常喜欢的一款质感设计的 Linux 图标包。我基本上所有用过的系统上都在使用。我在最近看项目主页时才发现 Papirus 图标包还出了有 Android 版。感觉还是可以拿来用用的。毕竟我最爱的 Sorcery 图标包已经很久没有更新过了。Papirus 的风格也很质感，用来补充还是很不错的。
+但是尴尬的是他的下载链接用的不知道是啥服务。魔法都不管用。可以说是很蛋疼了。
+项目链接：<https://github.com/PapirusDevelopmentTeam/papirus_icons>
+
 ### 音乐
 
 - 网易云音乐
