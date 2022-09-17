@@ -146,6 +146,14 @@ Warp 是一款速度极快的基于 Rust 的GPU加速终端，旨在让您和您
 
 项目链接：<https://github.com/Baiyuetribe/paper2gui>
 
+- CustomPinyinDictionary - 自建拼音输入法词库
+
+自建拼音输入法词库，百万常用词汇量，适配 Fcitx5 (Linux / Android) 及 Gboard (Android + Magisk) 。
+众所周知，这种国外软件对中文词汇的支持一直都挺尴尬的。经常需要靠全拼凑词。这个项目就是解决这种尴尬而创作的。
+增加了很多中文常用的词汇。属于你装了不会有很明显的感知，但确实有用的项目。我在 Linux 的 Fcitx5 上使用了这个项目，并且配合细胞词库和云联想使用。在打字的过程中确实少了很多联想不到的情况。还是很不错的。
+
+项目链接：<https://github.com/wuhgit/CustomPinyinDictionary>
+
 ## 文件管理
 
 - Ranger  
