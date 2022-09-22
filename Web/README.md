@@ -61,11 +61,6 @@ dotfile：<https://github.com/breathiness/dotfiles/blob/master/Web/surfingkeys/c
 
 项目链接：<https://greasyfork.org/zh-CN/scripts/33268-katakana-terminator>
 
-    - MukeTool 超星网课助手
-超星的自动刷题工具。可以自动查找正确答案，并且填写。可以剩省下不少时间。不过有时候题库的内容有可能会对不上，就需要人工填写部分答案了。
-
-项目链接：<http://muketool.com>
-
     - 简阅
 阅读增强及稍后读插件，Firefox 版本插件下线，只能安装离线版  
 项目链接：<http://ksria.com/simpread/>  
@@ -74,6 +69,15 @@ dotfile：<https://github.com/breathiness/dotfiles/blob/master/Web/surfingkeys/c
 
 哔哩哔哩图床插件，转短链接，速度快,多种图片压缩格式选择，自动读取Bilibili的Cookie，不再需要手动输入。 基于vitesse-webext 重构  
 项目链接：<https://github.com/xlzy520/bilibili-img-uploader>
+
+- V圈和三项检测 - 最近很火的成分检查器浏览器插件
+
+前几天逛 GreasyFork 的时候，一打开就看到几个成分检测的插件霸榜了。属实是给我乐的不轻。果断翻了一下几个插件的源码，找了一个功能比较齐全的装上了。在一些评论区成分配合言论是真的乐的不行。
+这个插件可以在打开B站评论区的时候自动查询成分。原理是查询发言人的动态有没有相关的关键词。虽然很容易误判，但本来也只是图一乐的插件，也没什么所谓了。
+这个版本是我认为功能相对比较全面的，支持手游三相和V圈成分。还有浓度等级功能。
+另外还有一个带图片的插件版本，功能更加齐全。不过攻击性有些太强了，所以我没有用。感兴趣的可以去搜索试用。
+
+项目链接：<https://greasyfork.org/zh-CN/scripts/451301-v%E5%9C%88%E5%92%8C%E4%B8%89%E9%A1%B9%E6%A3%80%E6%B5%8B-%E9%99%84%E5%B8%A6%E7%B1%B3%E5%AE%B6%E6%B5%93%E5%BA%A6%E7%AD%89%E7%BA%A7>
 
 - 翻译网页 - Firefox 最强的网页翻译方式
 
