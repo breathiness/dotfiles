@@ -380,6 +380,15 @@ QTTabbar 新增标签式（Tab）的浏览与快速预览方式。以及许多�
 一个制作可启动 U 盘的开源工具。无需反复地格式化 U 盘，你只需要把 ISO/WIM/IMG/VHD(x)/EFI 等类型的文件拷贝到 U 盘里面就可以启动。  
 项目链接：<https://www.ventoy.net/cn/index.html>  
 
+- CMWTAT_Digital_Edition - 开源 Win10/Win11 数字权利（数字许可证）激活工具
+
+前几天又买了一款 NUC，心血来潮打算装个 Win11 用几天试试。到了激活的时候原本打算还是用老方法激活。但是上 GitHub 搜索了一下，就下载了这个。  
+这款激活工具非常简单，直接下载打开后一键就能激活。可以说是非常方便了。  
+除了简单的激活之外，这个工具还支持在不同版本 Windows 之间转换。  
+目前已知 Windows 的 专业版（Professional）、专业工作站版（ProfessionalWorkstation）、教育版（Education）、专业教育版（ProfessionalEducation）、企业版（Enterprise） 之间可以进行互相转换（N版本与LTSB版本除外），而这些版本与家庭版（Core）均不能直接一键转换，如需转换请使用 2.6 版本新增的 升级到完整版 Windows 功能或使用 Windows设置 中的 更改产品密钥 功能进行升级。
+
+项目链接：<https://github.com/TGSAN/CMWTAT_Digital_Edition>
+
 - WindTerm - 专业的跨平台 SSH/Sftp/Shell/Telnet/Serial 终端
 
 前几天看到的非常好用的终端模拟器，类似 Warp 那样，在传统终端模拟器的基础上增加了很多的实用功能。而且在速度方面也是吊打了很多常用的终端模拟器，在他的主页可以看到多张对比图。  
