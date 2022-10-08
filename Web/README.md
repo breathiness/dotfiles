@@ -89,6 +89,14 @@ dotfile：<https://github.com/breathiness/dotfiles/blob/master/Web/surfingkeys/c
 
 项目链接：<https://addons.mozilla.org/zh-CN/firefox/addon/traduzir-paginas-web/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search>
 
+-猫抓 Cat Catch - 抓取网页视频，M3U8 解析下载合并工具
+
+在手机上我通常会使用 Via 浏览器。Via 在有视频的页面时，在地址栏会有一个音符的图标。点击就能看到很多链接，尝试一下就能找到正确的视频下载链接。但是在电脑上的浏览器并没有自带这个功能。
+刚好前几天小众软件介绍了一个网页资源嗅探扩展。试用了一下感觉还不错。下载非加密的视频还是挺方便的。不过跟 Via 浏览器一样对有加密的视频还是下不了。看描述好像能解密，但我没找到详细的教程说明，落泪了。
+最后还是吐槽一下我买的视频教程，使用加密强制用户只能在网站上观看。我虽然可以理解防止视频被直接抓取盗版，但我还是非常不爽。总感觉我并不是在“购买”教程，而是“租用”了课程。在这方面我其实非常欣赏 GOG 平台的理念，不对游戏进行加密，玩家可以自由拷贝游戏。可以让我觉得我是真正拥有了这个东西。
+
+项目链接：<https://github.com/xifangczy/cat-catch>
+
 ## 网页介绍  
 
 ### 搜索引擎  
