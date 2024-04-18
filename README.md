@@ -11,9 +11,6 @@
 
 ## [Linux](https://github.com/breathiness/dotfiles/tree/master/Linux)  
 
-设备：NUC（卧室）  
-用途：主要使用设备，用于游戏、音视频编辑等较重型任务  
-
 设备：腾讯云（服务器）  
 用途：暂时空闲，未部署服务  
 
@@ -21,6 +18,9 @@
 
 设备：MagicBook（宿舍）  
 用途：写文章、部分 Office 文件处理等轻量工作  
+
+设备：NUC（卧室）  
+用途：主要使用设备，用于游戏、音视频编辑等较重型任务。通常使用远程连接  
 
 设备：工作电脑（内网）  
 用途：使用 Creo 进行机械设计工作  
@@ -30,4 +30,8 @@
 
 ## [Android](https://github.com/breathiness/dotfiles/tree/master/Android)  
 
-设备：一加7 Pro
+设备：一加7 Pro  
+用途：主力机，用于收发信息、对外沟通，还有各州日常任务处理。以及阅读、观看视频等轻度娱乐需求
+
+设备：Sony Xperia PRO-I  
+用途：备用机，用于游戏、大文件下载等重性能工作。部分使用耳机孔的影音需求。
