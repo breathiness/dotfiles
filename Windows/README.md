@@ -380,10 +380,13 @@ QTTabbar 新增标签式（Tab）的浏览与快速预览方式。以及许多�
 
 ## 工具
 
-- Win3WM
+- Awake - 防止计算机自动进入睡眠/休眠/锁定屏幕  
+公司的电脑被设置了5min进入屏保。导致工作时经常需要动一动避免锁屏。而且我还有副屏挂着一个外网的虚拟机。那就更麻烦了，一下不注意就进屏保。又要重新输入密码。最难受的是还不能进行更改。  
+我之前的方法是用脚本每4分钟让鼠标移动1像素。是相当丑陋地实现了需求。而且这就相当于完全关闭了锁屏还是有些风险的。不过最近在GitHub看到了其他受过这个折磨的人开发了这个软件。软件通过调用Windows API函数来重置空闲计时器（和视频播放器相同原理）是更加优雅地解决了我的这个问题。  
+并且设置也更加简单快捷，右键小图标即可设置锁屏的时间。也能快速设置开机启动。有趣的是小人的图标会根据休眠的不同设置有不同的表现。我是相当喜欢这种小细节的。  
+最后再分享一个锁屏的小技巧。Windows的双屏在关闭屏幕再打开时，窗口总是会全挤到主屏上。那有没有什么不关闭屏幕也能黑屏的方式吗？在system32文件夹里有个scrnsave.scr的文件。打开就能显示黑屏，一动就能显示屏幕。相当于是一个全黑的屏保。给文件加个快捷键就能方便的黑屏了。配合Awake相当舒服。  
 
-在 Win10 上还原 i3WM 操作的平铺式窗口管理器。  
-项目链接：<https://github.com/McYoloSwagHam/win3wm>  
+项目链接：<https://github.com/gdegeneve/Awake>
 
 - Quicker  
 
@@ -427,36 +430,11 @@ QTTabbar 新增标签式（Tab）的浏览与快速预览方式。以及许多�
 
 项目链接：<https://github.com/xiaochunjimmy/Sogou-Input-Skin>
 
-- Espanso
-
-Espanso 是一个使用 Rust 实现的跨平台的 Text Expander，可以在任何编辑器中扩展短语。  
-其官网有一个非常生动形象的 GIF，当输入:  
-
-    :greet 自动变成 hello world  
-    :date 自动产生日期  
-    :llo 变成一串 Emoji  
-    :ip 变成真实的 IP 地址  
-
-介绍文章：<https://toutiao.io/k/09y7c8d>  
-官网：<https://espanso.org/>  
-
-- RealVNC
-
-RustDesk 不知道为什么在 Linux 上无法打开。于是换成了 RealVNC。
-开源远程桌面软件，可以在公司控制家里的电脑。
-项目地址：<https://www.realvnc.com/>
-
 - Deskreen - 将任何设备转换为计算机的辅助屏幕
 
 Deskreen 是一款桌面应用程序，可以通过 WiFi 将任何带有网络浏览器的设备变成电脑的辅助屏幕。Deskreen 可用于将整个计算机显示镜像到任何具有 Web 浏览器的设备屏幕上。您还可以限制 Deskreen 只选择一个要共享的应用程序窗口视图-这对于演示非常有用。Deskreen 的最大特点是可以使用任何设备作为辅助屏幕。要获得真正的扩展桌面体验，Deskreen 应与虚拟显示适配器配合使用。此外，不需要虚拟显示适配器，您可以使用平板电脑或智能手机拥有带有 Deskreen 的提示器，因为 Deskreen 具有翻转屏幕模式，可以在平板电脑的 Web 浏览器中镜像计算机屏幕 (又名：水平翻转屏幕)。
 
 项目链接：<https://deskreen.com/lang-zh_CN>
-
-- paper2gui - 让每个人都简单方便的使用前沿人工智能技术
-
-一款面向普通人的AI桌面APP工具箱，免安装即开即用，已支持18+AI模型，内容涵盖语音合成、视频补帧、视频超分、目标检测、图片风格化、OCR识别等领域。支持Windows、Mac、Linux系统，未来还将适配安卓和苹果设备，另外还有小程序。
-
-项目链接：<https://github.com/Baiyuetribe/paper2gui>
 
 - Keyviz - 实时按键展示
 
