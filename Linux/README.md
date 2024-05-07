@@ -510,6 +510,12 @@ Git 是一款免费和开源的分布式版本管理系统，被设计用来快�
 
 项目链接：<https://github.com/ajeetdsouza/zoxide>
 
+- No More Secrets - 重现了1992年电影中著名的数据解密效果
+
+这是又一个给外行装逼用的工具。可以让命令结果增加一个酷炫的解码特效。这个工具相比起之前的一些纯视觉效果的东西，这个可以折腾一下的。配合一些jp2a、toilet之类的 ASCII 字符画命令行工具。应该可以玩出一些有意思的效果。
+
+项目链接：https://github.com/bartobri/no-more-secrets
+
 ## 社交
 
 - telegram
