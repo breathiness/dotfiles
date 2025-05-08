@@ -1,18 +1,28 @@
 import os
 import subprocess
-import multiprocessing
+import traceback
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 def compress_image(input_path, output_path):
     """使用Guetzli压缩单个图像"""
     try:
-        subprocess.run(['guetzli', '--quality', '84', input_path, output_path], check=True)
+        # 检查输出文件是否已存在，避免重复处理
+        if os.path.exists(output_path):
+            print(f"跳过已存在的文件: {output_path}")
+            return True, input_path
+            
+        subprocess.run(['guetzli', '--quality', '84', input_path, output_path], 
+                      check=True, 
+                      stderr=subprocess.PIPE,
+                      stdout=subprocess.PIPE)
         return True, input_path
     except subprocess.CalledProcessError as e:
-        print(f"压缩失败: {input_path}, 错误: {e}")
+        error_msg = e.stderr.decode('utf-8') if e.stderr else str(e)
+        print(f"压缩失败: {input_path}, 错误: {error_msg}")
         return False, input_path
     except Exception as e:
-        print(f"处理 {input_path} 时发生意外错误: {e}")
+        print(f"处理 {input_path} 时发生意外错误: {str(e)}")
+        traceback.print_exc()  # 打印完整的错误堆栈
         return False, input_path
 
 def batch_compress(input_folder, max_workers=3):
@@ -28,11 +38,15 @@ def batch_compress(input_folder, max_workers=3):
     files_to_compress = []
     
     for filename in os.listdir(input_folder):
-        file_ext = os.path.splitext(filename.lower())[1]
-        if file_ext in supported_extensions:
-            input_path = os.path.join(input_folder, filename)
-            output_path = os.path.join(output_folder, filename)
-            files_to_compress.append((input_path, output_path))
+        try:
+            file_ext = os.path.splitext(filename.lower())[1]
+            if file_ext in supported_extensions:
+                input_path = os.path.join(input_folder, filename)
+                output_path = os.path.join(output_folder, filename)
+                files_to_compress.append((input_path, output_path))
+        except Exception as e:
+            print(f"处理文件 {filename} 时出错，跳过此文件: {str(e)}")
+            continue
     
     if not files_to_compress:
         print("没有找到可压缩的图像文件 (支持 JPG/JPEG/PNG)")
@@ -46,29 +60,50 @@ def batch_compress(input_folder, max_workers=3):
         futures = [executor.submit(compress_image, inp, out) for inp, out in files_to_compress]
         
         for future in as_completed(futures):
-            success, filepath = future.result()
-            if success:
-                success_count += 1
-                print(f"成功压缩: {os.path.basename(filepath)}")
+            try:
+                success, filepath = future.result()
+                if success:
+                    success_count += 1
+                    print(f"成功压缩: {os.path.basename(filepath)}")
+            except Exception as e:
+                print(f"处理结果时出错: {str(e)}")
+                continue
     
     print(f"\n压缩完成! 成功: {success_count}/{len(files_to_compress)}")
+    print(f"失败: {len(files_to_compress)-success_count}")
+    print(f"输出文件夹: {output_folder}")
 
 if __name__ == "__main__":
-    # 获取用户输入
-    input_folder = input("请输入包含图像的文件夹路径: ").strip()
-    
-    # 验证文件夹是否存在
-    while not os.path.isdir(input_folder):
-        print(f"错误: '{input_folder}' 不是一个有效的文件夹路径")
-        input_folder = input("请重新输入有效的文件夹路径: ").strip()
-    
-    # 检查Guetzli是否安装
     try:
-        subprocess.run(['guetzli', '--help'], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-    except FileNotFoundError:
-        print("错误: Guetzli 未安装或不在系统路径中")
-        print("请先安装Guetzli: https://github.com/google/guetzli")
-        exit(1)
-    
-    # 开始批量压缩
-    batch_compress(input_folder)
+        # 获取用户输入
+        input_folder = input("请输入包含图像的文件夹路径: ").strip()
+        
+        # 验证文件夹是否存在
+        while not os.path.isdir(input_folder):
+            print(f"错误: '{input_folder}' 不是一个有效的文件夹路径")
+            input_folder = input("请重新输入有效的文件夹路径: ").strip()
+        
+        # 检查Guetzli是否安装
+        try:
+            subprocess.run(['guetzli', '--help'], 
+                         stdout=subprocess.PIPE, 
+                         stderr=subprocess.PIPE,
+                         check=True)
+        except FileNotFoundError:
+            print("错误: Guetzli 未安装或不在系统路径中")
+            print("请先安装Guetzli: https://github.com/google/guetzli")
+            exit(1)
+        except subprocess.CalledProcessError:
+            # 有些版本的guetzli --help会返回非零退出码，但工具实际可用
+            pass
+        
+        # 开始批量压缩
+        batch_compress(input_folder)
+        
+    except KeyboardInterrupt:
+        print("\n用户中断操作，程序退出")
+    except Exception as e:
+        print(f"发生未处理的顶级错误: {str(e)}")
+        traceback.print_exc()
+    finally:
+        input("按Enter键退出...")  # 防止窗口立即关闭
