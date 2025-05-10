@@ -73,37 +73,71 @@ def batch_compress(input_folder, max_workers=3):
     print(f"失败: {len(files_to_compress)-success_count}")
     print(f"输出文件夹: {output_folder}")
 
-if __name__ == "__main__":
+def check_guetzli_installed():
+    """检查Guetzli是否安装"""
     try:
-        # 获取用户输入
-        input_folder = input("请输入包含图像的文件夹路径: ").strip()
-        
-        # 验证文件夹是否存在
-        while not os.path.isdir(input_folder):
-            print(f"错误: '{input_folder}' 不是一个有效的文件夹路径")
-            input_folder = input("请重新输入有效的文件夹路径: ").strip()
-        
-        # 检查Guetzli是否安装
+        subprocess.run(['guetzli', '--help'], 
+                     stdout=subprocess.PIPE, 
+                     stderr=subprocess.PIPE,
+                     check=True)
+        return True
+    except FileNotFoundError:
+        print("错误: Guetzli 未安装或不在系统路径中")
+        print("请先安装Guetzli: https://github.com/google/guetzli")
+        return False
+    except subprocess.CalledProcessError:
+        # 有些版本的guetzli --help会返回非零退出码，但工具实际可用
+        return True
+
+def main():
+    """主程序循环"""
+    # 检查Guetzli是否安装
+    if not check_guetzli_installed():
+        input("按Enter键退出...")
+        return
+    
+    while True:
         try:
-            subprocess.run(['guetzli', '--help'], 
-                         stdout=subprocess.PIPE, 
-                         stderr=subprocess.PIPE,
-                         check=True)
-        except FileNotFoundError:
-            print("错误: Guetzli 未安装或不在系统路径中")
-            print("请先安装Guetzli: https://github.com/google/guetzli")
-            exit(1)
-        except subprocess.CalledProcessError:
-            # 有些版本的guetzli --help会返回非零退出码，但工具实际可用
-            pass
-        
-        # 开始批量压缩
-        batch_compress(input_folder)
-        
-    except KeyboardInterrupt:
-        print("\n用户中断操作，程序退出")
-    except Exception as e:
-        print(f"发生未处理的顶级错误: {str(e)}")
-        traceback.print_exc()
-    finally:
-        input("按Enter键退出...")  # 防止窗口立即关闭
+            # 获取用户输入
+            print("\n" + "="*50)
+            input_folder = input("请输入包含图像的文件夹路径(或按Enter退出): ").strip()
+            
+            if not input_folder:  # 用户直接按Enter退出
+                print("程序退出")
+                break
+                
+            # 验证文件夹是否存在
+            if not os.path.isdir(input_folder):
+                print(f"错误: '{input_folder}' 不是一个有效的文件夹路径")
+                continue
+            
+            # 开始批量压缩
+            batch_compress(input_folder)
+            
+            # 询问用户是否继续
+            while True:
+                choice = input("\n操作完成，请选择: [1]处理另一个文件夹 [Enter]退出: ").strip()
+                if choice == '1':
+                    break
+                elif choice == '':
+                    print("程序退出")
+                    return
+                else:
+                    print("无效输入，请重新选择")
+                    
+        except KeyboardInterrupt:
+            print("\n用户中断操作，是否退出?")
+            choice = input("按Enter退出，或输入1继续: ").strip()
+            if choice != '1':
+                print("程序退出")
+                break
+        except Exception as e:
+            print(f"发生未处理的错误: {str(e)}")
+            traceback.print_exc()
+            choice = input("\n发生错误，是否继续? [1]继续 [Enter]退出: ").strip()
+            if choice != '1':
+                print("程序退出")
+                break
+
+if __name__ == "__main__":
+    main()
